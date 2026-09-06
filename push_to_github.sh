@@ -18,9 +18,9 @@ fi
 # 2. ตั้งค่า Remote Repository
 echo "[1/4] ตรวจสอบและตั้งค่า Remote Repository..."
 if git remote get-url origin &> /dev/null; then
-    git remote set-url origin https://github.com/yutthapoom32-droid/mos.git
+    git remote set-url origin git@github.com:yutthapoom32-droid/mos.git
 else
-    git remote add origin https://github.com/yutthapoom32-droid/mos.git
+    git remote add origin git@github.com:yutthapoom32-droid/mos.git
 fi
 
 # 3. สลับไปที่ Branch main
