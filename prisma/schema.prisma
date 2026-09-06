@@ -1,0 +1,151 @@
+// prisma/schema.prisma
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id           String     @id @default(uuid())
+  email        String     @unique
+  passwordHash String
+  fullName     String
+  role         String     @default("SCHOOL_ADMIN") // SCHOOL_ADMIN, MONK, PROVINCIAL_OFFICER, CENTRAL_ADMIN, EXECUTIVE, AUDITOR
+  isActive     Boolean    @default(true)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  deletedAt    DateTime?
+
+  monk         Monk?
+  auditLogs    AuditLog[]
+
+  @@map("users")
+}
+
+model School {
+  id              String      @id @default(uuid())
+  schoolCode      String      @unique
+  name            String
+  size            String      @default("MEDIUM") // SMALL, MEDIUM, LARGE, EXTRA_LARGE
+  type            String      @default("GENERAL") // GENERAL, OPPORTUNITY_EXPAND, REMOTE_BORDER
+  province        String
+  district        String
+  subDistrict     String
+  totalStudents   Int         @default(0)
+  totalClassrooms Int         @default(0)
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+  deletedAt       DateTime?
+
+  demands         SchoolDemandRequest[]
+  allocations     QuotaAllocation[]
+
+  @@index([province, district])
+  @@map("schools")
+}
+
+model Monk {
+  id                   String     @id @default(uuid())
+  userId               String?    @unique
+  identificationNumber String     @unique
+  monasticCertNumber   String     @unique // เลขใบสุทธิ
+  dharmaName           String     // ฉายา
+  firstName            String
+  lastName             String
+  templeName           String
+  templeProvince       String
+  dharmaEducationLevel String?    // นักธรรมเอก, เปรียญธรรม ๙ ประโยค
+  secularEducation     String?    // ปริญญาตรี, โท
+  status               String     @default("ACTIVE") // ACTIVE, LEAVE_TEMPORARY, TRANSFERRED, DISROBED, DECEASED, PROVISIONAL
+  maxWeeklyHours       Int        @default(20)
+  createdAt            DateTime   @default(now())
+  updatedAt            DateTime   @updatedAt
+  deletedAt            DateTime?
+
+  user                 User?      @relation(fields: [userId], references: [id])
+  allocations          QuotaAllocation[]
+
+  @@index([status, templeProvince])
+  @@map("monks")
+}
+
+model SchoolDemandRequest {
+  id                   String              @id @default(uuid())
+  schoolId             String
+  academicYear         Int
+  requestedSlots       Int
+  weeklyPeriodsNeeded  Int
+  justificationNotes   String?
+  status               String              @default("SUBMITTED") // DRAFT, SUBMITTED, PROVINCE_APPROVED, REVISE_REQUESTED, REJECTED, FINAL_APPROVED
+  reviewedByProvinceAt DateTime?
+  reviewedByCentralAt  DateTime?
+  rejectionReason      String?
+  createdAt            DateTime            @default(now())
+  updatedAt            DateTime            @updatedAt
+
+  school               School              @relation(fields: [schoolId], references: [id])
+  allocations          QuotaAllocation[]
+
+  @@unique([schoolId, academicYear])
+  @@index([academicYear, status])
+  @@map("school_demand_requests")
+}
+
+model QuotaAllocation {
+  id                 String           @id @default(uuid())
+  schoolId           String
+  demandRequestId    String
+  monkId             String?
+  academicYear       Int
+  allocatedPeriods   Int              @default(0)
+  status             String           @default("UNASSIGNED") // UNASSIGNED, ASSIGNED, SLOT_VACANT, CANCELLED
+  createdAt          DateTime         @default(now())
+  updatedAt          DateTime         @updatedAt
+
+  school             School           @relation(fields: [schoolId], references: [id])
+  demandRequest      SchoolDemandRequest @relation(fields: [demandRequestId], references: [id])
+  monk               Monk?            @relation(fields: [monkId], references: [id])
+  disbursementPlans  BudgetDisbursementPlan[]
+
+  @@index([academicYear, status])
+  @@map("quota_allocations")
+}
+
+model BudgetDisbursementPlan {
+  id                   String          @id @default(uuid())
+  allocationId         String
+  fiscalYear           Int
+  fiscalMonth          Int             // 1-12
+  monthlyStipendAmount Decimal
+  isApproved           Boolean         @default(false)
+  createdAt            DateTime        @default(now())
+  updatedAt            DateTime        @updatedAt
+
+  allocation           QuotaAllocation @relation(fields: [allocationId], references: [id])
+
+  @@unique([allocationId, fiscalYear, fiscalMonth])
+  @@map("budget_disbursement_plans")
+}
+
+model AuditLog {
+  id           String    @id @default(uuid())
+  userId       String?
+  action       String    // e.g. MONK_STATUS_UPDATED, QUOTA_APPROVED
+  targetEntity String
+  targetId     String
+  oldValues    String?   // JSON String
+  newValues    String?   // JSON String
+  hashStamp    String?   // SHA-256 integrity hash
+  ipAddress    String?
+  createdAt    DateTime  @default(now())
+
+  user         User?     @relation(fields: [userId], references: [id])
+
+  @@index([targetEntity, targetId])
+  @@index([createdAt])
+  @@map("audit_logs")
+}
