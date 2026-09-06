@@ -1,0 +1,29 @@
+# Node & Build Outputs
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Large Media Files (Briefing Audio & Video)
+*.mov
+*.MOV
+*.mp3
+*.MP3
+
+# Local Database & SQLite
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# OS & IDE Metadata
+.DS_Store
+*.pem
+.idea/
+.vscode/

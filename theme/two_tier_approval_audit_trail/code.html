@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+
+<html lang="th"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-error":"#ffffff","on-surface":"#0d1c2f","surface-variant":"#d5e3fd","primary":"#002046","tertiary":"#06223a","inverse-on-surface":"#ebf1ff","on-primary-container":"#87a0cd","on-secondary":"#ffffff","surface-dim":"#ccdbf4","on-tertiary-container":"#89a0bf","on-tertiary":"#ffffff","error-container":"#ffdad6","tertiary-container":"#1f3751","surface":"#f8f9ff","on-primary-fixed-variant":"#2e476f","primary-container":"#1b365d","on-error-container":"#93000a","on-tertiary-fixed-variant":"#314863","secondary":"#9b4500","primary-fixed":"#d6e3ff","secondary-fixed":"#ffdbca","background":"#f8f9ff","surface-container-lowest":"#ffffff","primary-fixed-dim":"#aec7f7","secondary-container":"#fd8a42","secondary-fixed-dim":"#ffb68e","inverse-primary":"#aec7f7","surface-container-highest":"#d5e3fd","on-primary":"#ffffff","error":"#ba1a1a","surface-bright":"#f8f9ff","tertiary-fixed-dim":"#b0c9e8","on-background":"#0d1c2f","outline":"#74777f","on-primary-fixed":"#001b3d","surface-container-high":"#dde9ff","on-secondary-fixed":"#331200","tertiary-fixed":"#d1e4ff","surface-tint":"#465f88","on-surface-variant":"#44474e","surface-container-low":"#eff4ff","on-secondary-fixed-variant":"#763300","on-secondary-container":"#682c00","inverse-surface":"#233144","surface-container":"#e6eeff","outline-variant":"#c4c6cf","on-tertiary-fixed":"#011d35"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"1rem","gutter-desktop":"1.5rem","space-xl":"2rem","space-2xl":"3rem","space-lg":"1.5rem","space-md":"1rem","space-sm":"0.75rem","space-xs":"0.5rem","container-max":"1440px","space-2xs":"0.25rem"},"fontFamily":{"body-sm":["Inter"],"body-lg":["Inter"],"title-md":["Inter"],"label-sm":["Inter"],"label-lg":["Inter"],"title-lg":["Inter"],"headline-lg":["Inter"],"headline-lg-mobile":["Inter"],"metric-num":["Inter"],"body-md":["Inter"],"headline-md":["Inter"],"display-lg":["Inter"],"label-md":["Inter"]},"fontSize":{"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"title-md":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.03em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.005em","fontWeight":"500"}],"title-lg":["18px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"600"}],"headline-lg":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-lg-mobile":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"metric-num":["28px",{"lineHeight":"32px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"display-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased min-h-screen"><header class="fixed top-0 w-full z-50 bg-primary text-on-primary shadow-[0_1px_8px_rgba(0,0,0,0.08)]"><div class="h-20 w-full px-gutter-desktop flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1W7e0NFUgoXWJJJrRhUhCvFsSobRnStp6e9Uvl3tNWBe8EI6aD2OzJoiAxkiG3AparGRpD_Qzzbs-bFvlDIGzoHwLgeFH1IXOfdZZdJLIqrY2S_60_bVEtOU6Vi5niXmzhBLf9dsqAGnRR_VhJuSYc006MYAGxuEiY6LBD8WH27hB_CZt7YAO8r-OfV1Gbv8c-5A6J_EvpVz3yMOntW1EtamUhBH-_5DaxBV9F6trRxBGp0_3Eh6Ol0Zbs"/><div class="flex flex-col"><span class="font-title-lg text-title-lg text-on-primary tracking-tight">ระบบประเมินและจัดสรรจำนวนพระสอนศีลธรรม</span><span class="font-body-sm text-body-sm text-on-primary-container font-light">โครงการพระสอนศีลธรรมในโรงเรียน • แพลตฟอร์มกลางบริหารจัดการและจัดสรรโควตาระดับชาติ</span></div></div><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-xs bg-primary-container px-space-md py-space-xs rounded-lg"><div class="flex flex-col text-right"><span class="font-label-sm text-label-sm text-on-primary-container">บทบาทผู้ใช้งาน</span><span class="font-label-lg text-label-lg text-on-primary font-medium">ส่วนกลาง (Central Admin / Executive)</span></div><span class="bg-secondary text-on-secondary px-space-xs py-space-2xs rounded font-label-sm text-label-sm ml-space-xs">ปีงบประมาณ 2568</span></div><div class="relative flex items-center justify-center"><button class="w-10 h-10 rounded-full flex items-center justify-center bg-primary-container text-on-primary hover:bg-tertiary-container transition-colors" title="การแจ้งเตือน"><span class="material-symbols-outlined">notifications</span></button><span class="absolute top-1 right-1 w-2.5 h-2.5 bg-secondary-container rounded-full ring-2 ring-primary"></span></div><div class="flex items-center gap-space-sm pl-space-sm border-l border-primary-container"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1W7e0NFUgoXWJJJrRhUhCvFsSobRnStp6e9Uvl3tNWBe8EI6aD2OzJoiAxkiG3AparGRpD_Qzzbs-bFvlDIGzoHwLgeFH1IXOfdZZdJLIqrY2S_60_bVEtOU6Vi5niXmzhBLf9dsqAGnRR_VhJuSYc006MYAGxuEiY6LBD8WH27hB_CZt7YAO8r-OfV1Gbv8c-5A6J_EvpVz3yMOntW1EtamUhBH-_5DaxBV9F6trRxBGp0_3Eh6Ol0Zbs"/><div class="flex flex-col text-left"><span class="font-label-lg text-label-lg text-on-primary font-medium leading-none">พระมหาประเสริฐ / นายนริศ สุวรรณสิทธิ์</span><span class="font-label-sm text-label-sm text-on-primary-container mt-space-2xs">ผู้ดูแลระบบส่วนกลาง (Super Admin)</span></div></div></div></div><div class="w-full bg-surface-container-lowest px-gutter-desktop shadow-[0_1px_4px_rgba(0,0,0,0.03)]"><nav class="flex items-center gap-space-xl overflow-x-auto" data-active-classes="border-b-2 border-secondary text-secondary font-title-md"><a class="py-space-md font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-path="executive-dashboard" href="#">แดชบอร์ดภาพรวมและจำลองงบประมาณ</a><a class="py-space-md font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-path="school-quota-calculation" href="#">บันทึกคำขอและคำนวณโควตาโรงเรียน</a><a class="py-space-md font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-path="monk-roster-workload" href="#">ทะเบียนและตรวจสอบภาระงานพระสอน</a><a aria-current="page" class="py-space-md transition-colors whitespace-nowrap border-b-2 border-secondary text-secondary font-title-md" data-path="approval-audit-trail" href="#">ขั้นตอนการอนุมัติและประวัติการตรวจสอบ</a></nav></div></header><aside class="fixed left-0 top-36 h-[calc(100vh-9rem)] w-64 bg-surface-container-lowest z-40 flex flex-col p-space-md overflow-y-auto shadow-[1px_0_4px_rgba(0,0,0,0.02)]"><div class="mb-space-md px-space-xs"><span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">การแบ่งเขตปกครอง / ภูมิภาค</span></div><nav class="flex-1 flex flex-col gap-space-2xs" data-active-classes="bg-primary-container text-on-primary font-title-md"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="executive-dashboard" href="#"><span class="material-symbols-outlined text-outline">public</span>ภาพรวมทั้งประเทศ</a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="school-quota-calculation" href="#"><span class="material-symbols-outlined text-outline">account_balance</span>สำนักงานเขตพื้นที่การศึกษา</a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="monk-roster-workload" href="#"><span class="material-symbols-outlined text-outline">temple_buddhist</span>สำนักงานเจ้าคณะจังหวัด / อำเภอ</a><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg transition-colors bg-primary-container text-on-primary font-title-md" data-path="approval-audit-trail" href="#"><span class="material-symbols-outlined text-outline">verified_user</span>ทะเบียนพิจารณาคำขอระดับเขต</a></nav><div class="mt-auto pt-space-md border-t border-surface-container"><div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col gap-space-2xs"><span class="font-label-sm text-label-sm text-on-surface-variant">สถานะเชื่อมโยงข้อมูล</span><div class="flex items-center gap-space-2xs"><span class="w-2 h-2 rounded-full bg-emerald-500"></span><span class="font-body-sm text-body-sm text-on-surface">ระบบสารสนเทศ สพฐ. เชื่อมต่อแล้ว</span></div></div></div></aside><div class="pl-64"><main class="w-full pt-36 px-gutter-desktop pb-space-2xl bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Sub-navigation & Live Notification Pill -->
+<div class="flex flex-wrap items-center justify-between gap-space-md mb-space-lg">
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
+<span>ทะเบียนกำกับดูแล</span>
+<span class="material-symbols-outlined text-outline text-sm">chevron_right</span>
+<span class="text-primary font-medium">ขั้นตอนการอนุมัติ 2 ขั้นและบันทึกประวัติการตรวจสอบ</span>
+</div>
+<div class="flex items-center gap-space-sm mt-space-2xs">
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">ขั้นตอนการอนุมัติ 2 ขั้นและบันทึกประวัติการตรวจสอบ (Two-Tier Approval Workflow)</h1>
+<span class="bg-secondary-fixed text-on-secondary-fixed px-space-xs py-space-2xs rounded-full font-label-sm text-label-sm flex items-center gap-space-2xs">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+          ระบบกำกับความโปร่งใส สตง. รองรับ SHA-256
+        </span>
+</div>
+</div>
+<!-- Quick Action / Official Documents -->
+<div class="flex items-center gap-space-sm">
+<button class="bg-surface-container-low hover:bg-surface-container text-on-surface px-space-md py-space-xs rounded-lg font-label-lg text-label-lg flex items-center gap-space-xs transition-colors shadow-sm" id="btn-show-snapshot">
+<span class="material-symbols-outlined text-outline">history</span>
+        เรียกดู Snapshot ย้อนหลัง
+      </button>
+<button class="bg-surface-container-low hover:bg-surface-container text-on-surface px-space-md py-space-xs rounded-lg font-label-lg text-label-lg flex items-center gap-space-xs transition-colors shadow-sm">
+<span class="material-symbols-outlined text-outline">description</span>
+        ส่งออก Log สตง. (CSV)
+      </button>
+<button class="bg-primary hover:bg-primary-container text-on-primary px-space-md py-space-xs rounded-lg font-label-lg text-label-lg flex items-center gap-space-xs transition-colors shadow-sm">
+<span class="material-symbols-outlined">verified</span>
+        พิมพ์คำสั่งจัดสรรทางการ (PDF + QR)
+      </button>
+</div>
+</div>
+<!-- SECTION 1: TWO-TIER APPROVAL PIPELINE STEPPER -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm mb-space-lg relative overflow-hidden">
+<div class="flex flex-wrap items-center justify-between gap-space-sm pb-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary">account_tree</span>
+<span class="font-title-lg text-title-lg text-primary">ผังการขับเคลื่อนและอนุมัติโควตาระดับชาติ (National Pipeline Tracker)</span>
+</div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-space-2xs"><span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span> ดำเนินการแล้วเสร็จ</span>
+<span class="flex items-center gap-space-2xs"><span class="w-2.5 h-2.5 rounded-full bg-secondary-container"></span> อยู่ระหว่างขั้นตอน</span>
+<span class="flex items-center gap-space-2xs"><span class="w-2.5 h-2.5 rounded-full bg-surface-container-high"></span> รอจัดสรรตามรอบ</span>
+</div>
+</div>
+<!-- Stepper Grid -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-space-md relative">
+<!-- Step 1 -->
+<div class="flex flex-col bg-surface-container-low p-space-md rounded-xl relative group">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">ขั้นตอนที่ 1 : สพฐ./รร.</span>
+<span class="bg-emerald-100 text-emerald-800 text-[10px] font-semibold px-2 py-0.5 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">check</span> ครบ 100%
+          </span>
+</div>
+<div class="font-title-md text-title-md text-on-surface mb-space-2xs">การยื่นคำขอจากโรงเรียน</div>
+<div class="font-metric-num text-metric-num text-primary font-bold mb-space-2xs">28,450 <span class="font-body-sm text-body-sm font-normal text-on-surface-variant">แห่ง</span></div>
+<div class="w-full bg-surface-container-highest rounded-full h-1.5 overflow-hidden mb-space-xs">
+<div class="bg-emerald-600 h-full w-full"></div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">บันทึกข้อมูลและอัปโหลดภาระงานคาบสอนครบถ้วนทุกเขต</span>
+</div>
+<!-- Step 2 -->
+<div class="flex flex-col bg-surface-container-low p-space-md rounded-xl relative">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">ขั้นตอนที่ 2 : ระดับจังหวัด</span>
+<span class="bg-emerald-100 text-emerald-800 text-[10px] font-semibold px-2 py-0.5 rounded-full">เห็นชอบ 94.2%</span>
+</div>
+<div class="font-title-md text-title-md text-on-surface mb-space-2xs">การตรวจสอบร่วม พศจ. + สพท.</div>
+<div class="font-metric-num text-metric-num text-primary font-bold mb-space-2xs">26,800 <span class="font-body-sm text-body-sm font-normal text-on-surface-variant">/ 28,450 แห่ง</span></div>
+<div class="w-full bg-surface-container-highest rounded-full h-1.5 overflow-hidden mb-space-xs">
+<div class="bg-emerald-500 h-full" style="width: 94.2%"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-secondary font-medium">รอการตรวจ: 1,650 แห่ง</span>
+<span class="text-on-surface-variant">77 จังหวัด</span>
+</div>
+</div>
+<!-- Step 3 (Active) -->
+<div class="flex flex-col bg-primary text-on-primary p-space-md rounded-xl relative shadow-md">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-primary-container font-semibold">ขั้นตอนที่ 3 : คณะกรรมการกลาง</span>
+<span class="bg-secondary-container text-on-secondary-container text-[10px] font-bold px-2 py-0.5 rounded-full animate-pulse">กำลังพิจารณา</span>
+</div>
+<div class="font-title-md text-title-md text-on-primary mb-space-2xs">การอนุมัติขั้นสุดท้าย (Central Admin)</div>
+<div class="font-metric-num text-metric-num text-on-primary font-bold mb-space-2xs">24,500 <span class="font-body-sm text-body-sm font-normal text-on-primary-container">อนุมัติแล้ว</span></div>
+<div class="w-full bg-tertiary-container rounded-full h-1.5 overflow-hidden mb-space-xs">
+<div class="bg-secondary-container h-full" style="width: 86.1%"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-primary-container">
+<span>ค้างพิจารณาส่วนกลาง: <strong class="text-on-primary">2,300 แห่ง</strong></span>
+<span class="text-secondary-fixed">86.1%</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="flex flex-col bg-surface-container-low p-space-md rounded-xl relative">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold">ขั้นตอนที่ 4 : กรมบัญชีกลาง</span>
+<span class="bg-surface-container-high text-on-surface-variant text-[10px] font-semibold px-2 py-0.5 rounded-full">เตรียมการ</span>
+</div>
+<div class="font-title-md text-title-md text-on-surface mb-space-2xs">ส่งออกคำสั่ง &amp; เบิกจ่ายนิตยภัต</div>
+<div class="font-metric-num text-metric-num text-primary font-bold mb-space-2xs">328.4 <span class="font-body-sm text-body-sm font-normal text-on-surface-variant">ล้านบาท/งวด</span></div>
+<div class="w-full bg-surface-container-highest rounded-full h-1.5 overflow-hidden mb-space-xs">
+<div class="bg-primary h-full" style="width: 72%"></div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">กำหนดรอบโอนเงินผ่านระบบ GFMIS 25 พ.ค. 2568</span>
+</div>
+</div>
+</div>
+<!-- SECTION 2: BATCH APPROVAL & ALLOCATION REVIEW TABLE -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm mb-space-lg">
+<!-- Action Bar & Filter Header -->
+<div class="flex flex-wrap items-center justify-between gap-space-md mb-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-primary-container text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined">rule_folder</span>
+</div>
+<div>
+<h2 class="font-title-lg text-title-lg text-on-surface">ตารางพิจารณาและอนุมัติโควตาระดับจังหวัด (Batch Allocation Approval)</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">ข้อมูลคำขอที่ผ่านการรับรองจากเจ้าคณะจังหวัดและ สพท. พร้อมสำหรับการตัดสินใจของผู้บริหารส่วนกลาง</p>
+</div>
+</div>
+<!-- Bulk Action Bar -->
+<div class="flex items-center gap-space-sm">
+<div class="text-right mr-space-xs hidden sm:block">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">เลือกสำหรับอนุมัติ</span>
+<span class="font-label-lg text-label-lg text-primary font-bold" id="selected-count-label">2 จังหวัด (860 อัตรา)</span>
+</div>
+<button class="bg-secondary hover:bg-on-secondary-fixed-variant text-on-secondary px-space-md py-space-xs rounded-lg font-label-lg text-label-lg flex items-center gap-space-2xs transition-colors shadow-sm" id="btn-batch-approve">
+<span class="material-symbols-outlined text-sm">verified_user</span>
+          อนุมัติกลุ่มที่เลือก (Batch Approve)
+        </button>
+<button class="bg-surface-container-high hover:bg-surface-container text-error px-space-md py-space-xs rounded-lg font-label-lg text-label-lg flex items-center gap-space-2xs transition-colors" id="btn-batch-return">
+<span class="material-symbols-outlined text-sm">replay</span>
+          ส่งกลับทบทวน
+        </button>
+</div>
+</div>
+<!-- Quick Stats Pill Row -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-sm mb-space-md">
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-xl">location_city</span>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">จังหวัดทั้งหมด</div>
+<div class="font-title-md text-title-md text-primary font-bold">77 จังหวัด</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-xl">pending_actions</span>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">ค้างพิจารณาขั้นสุดท้าย</div>
+<div class="font-title-md text-title-md text-secondary font-bold">14 จังหวัด (2,300 รร.)</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-emerald-600 text-xl">check_circle</span>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">อนุมัติเสร็จสมบูรณ์</div>
+<div class="font-title-md text-title-md text-emerald-700 font-bold">63 จังหวัด (24,500 รร.)</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-xl">payments</span>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">งบประมาณที่ผูกพัน</div>
+<div class="font-title-md text-title-md text-primary font-bold">294.5 ล้านบาท</div>
+</div>
+</div>
+</div>
+<!-- Allocation Review Data Table -->
+<div class="overflow-x-auto rounded-lg">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
+<tr>
+<th class="p-space-sm w-12 text-center">
+<input class="rounded w-4 h-4 text-primary focus:ring-primary" id="check-all" type="checkbox"/>
+</th>
+<th class="p-space-sm">จังหวัด / สำนักงานเขต</th>
+<th class="p-space-sm text-center">รร. ที่ยื่น (แห่ง)</th>
+<th class="p-space-sm text-right">โควตาขอมา (รูป)</th>
+<th class="p-space-sm text-right">เกณฑ์คำนวณสูตร</th>
+<th class="p-space-sm text-right">จังหวัดรับรอง</th>
+<th class="p-space-sm text-right">งบประมาณ/เดือน</th>
+<th class="p-space-sm">ความคิดเห็น พศจ./สพท.</th>
+<th class="p-space-sm text-center">สถานะ</th>
+<th class="p-space-sm text-center">การดำเนินการ</th>
+</tr>
+</thead>
+<tbody class="text-on-surface">
+<!-- Row 1: Chiang Mai -->
+<tr class="hover:bg-surface-container-low transition-colors bg-surface-container-lowest">
+<td class="p-space-sm text-center">
+<input checked="" class="row-checkbox rounded w-4 h-4 text-primary focus:ring-primary" data-province="เชียงใหม่" data-quota="420" type="checkbox"/>
+</td>
+<td class="p-space-sm">
+<div class="font-title-md text-title-md text-primary font-medium">จังหวัดเชียงใหม่</div>
+<div class="text-on-surface-variant text-[11px]">สพป.ชม. เขต 1-6 &amp; สพม.ชม. • สำนักพุทธ จ.เชียงใหม่</div>
+</td>
+<td class="p-space-sm text-center font-medium">498</td>
+<td class="p-space-sm text-right text-on-surface-variant">450</td>
+<td class="p-space-sm text-right font-medium">415</td>
+<td class="p-space-sm text-right font-bold text-primary">420</td>
+<td class="p-space-sm text-right font-bold text-on-surface">4.20 ลบ.</td>
+<td class="p-space-sm">
+<div class="flex items-center gap-space-2xs text-on-surface-variant">
+<span class="material-symbols-outlined text-xs text-emerald-600">attachment</span>
+<span class="truncate max-w-[210px] text-xs">มติเจ้าคณะจังหวัดรับรองครบ มีพื้นที่ทุรกันดาร 24 แห่ง</span>
+</div>
+</td>
+<td class="p-space-sm text-center">
+<span class="bg-secondary-fixed text-on-secondary-fixed px-space-xs py-space-2xs rounded-full font-label-sm text-label-sm whitespace-nowrap">
+                รออนุมัติส่วนกลาง
+              </span>
+</td>
+<td class="p-space-sm text-center">
+<div class="flex items-center justify-center gap-space-2xs">
+<button class="approve-btn p-1 text-emerald-700 hover:bg-emerald-50 rounded" title="อนุมัติเฉพาะรายการนี้">
+<span class="material-symbols-outlined text-base">done</span>
+</button>
+<button class="return-btn p-1 text-error hover:bg-error-container rounded" title="ส่งกลับแก้ไข">
+<span class="material-symbols-outlined text-base">reply</span>
+</button>
+<button class="p-1 text-primary hover:bg-surface-container rounded" title="ตรวจสอบเชิงลึก">
+<span class="material-symbols-outlined text-base">visibility</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2: Khon Kaen -->
+<tr class="hover:bg-surface-container-low transition-colors bg-surface-container-low/40">
+<td class="p-space-sm text-center">
+<input checked="" class="row-checkbox rounded w-4 h-4 text-primary focus:ring-primary" data-province="ขอนแก่น" data-quota="440" type="checkbox"/>
+</td>
+<td class="p-space-sm">
+<div class="font-title-md text-title-md text-primary font-medium">จังหวัดขอนแก่น</div>
+<div class="text-on-surface-variant text-[11px]">สพป.ขก. เขต 1-5 &amp; สพม.ขก. • สำนักพุทธ จ.ขอนแก่น</div>
+</td>
+<td class="p-space-sm text-center font-medium">520</td>
+<td class="p-space-sm text-right text-on-surface-variant">470</td>
+<td class="p-space-sm text-right font-medium">438</td>
+<td class="p-space-sm text-right font-bold text-primary">440</td>
+<td class="p-space-sm text-right font-bold text-on-surface">4.40 ลบ.</td>
+<td class="p-space-sm">
+<div class="flex items-center gap-space-2xs text-on-surface-variant">
+<span class="material-symbols-outlined text-xs text-emerald-600">attachment</span>
+<span class="truncate max-w-[210px] text-xs">เกลี่ยโควตาจากอำเภอเมืองไปโรงเรียนขยายโอกาสเรียบร้อย</span>
+</div>
+</td>
+<td class="p-space-sm text-center">
+<span class="bg-secondary-fixed text-on-secondary-fixed px-space-xs py-space-2xs rounded-full font-label-sm text-label-sm whitespace-nowrap">
+                รออนุมัติส่วนกลาง
+              </span>
+</td>
+<td class="p-space-sm text-center">
+<div class="flex items-center justify-center gap-space-2xs">
+<button class="approve-btn p-1 text-emerald-700 hover:bg-emerald-50 rounded" title="อนุมัติเฉพาะรายการนี้">
+<span class="material-symbols-outlined text-base">done</span>
+</button>
+<button class="return-btn p-1 text-error hover:bg-error-container rounded" title="ส่งกลับแก้ไข">
+<span class="material-symbols-outlined text-base">reply</span>
+</button>
+<button class="p-1 text-primary hover:bg-surface-container rounded" title="ตรวจสอบเชิงลึก">
+<span class="material-symbols-outlined text-base">visibility</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 3: Nakhon Si Thammarat -->
+<tr class="hover:bg-surface-container-low transition-colors bg-surface-container-lowest">
+<td class="p-space-sm text-center">
+<input class="row-checkbox rounded w-4 h-4 text-primary focus:ring-primary" data-province="นครศรีธรรมราช" data-quota="310" type="checkbox"/>
+</td>
+<td class="p-space-sm">
+<div class="font-title-md text-title-md text-primary font-medium">จังหวัดนครศรีธรรมราช</div>
+<div class="text-on-surface-variant text-[11px]">สพป.นศ. เขต 1-4 &amp; สพม.นศ. • สำนักพุทธ จ.นครศรีธรรมราช</div>
+</td>
+<td class="p-space-sm text-center font-medium">380</td>
+<td class="p-space-sm text-right text-on-surface-variant">340</td>
+<td class="p-space-sm text-right font-medium">305</td>
+<td class="p-space-sm text-right font-bold text-primary">310</td>
+<td class="p-space-sm text-right font-bold text-on-surface">3.10 ลบ.</td>
+<td class="p-space-sm">
+<div class="flex items-center gap-space-2xs text-error">
+<span class="material-symbols-outlined text-xs">warning</span>
+<span class="truncate max-w-[210px] text-xs">มี 3 พระสอนเปลี่ยนสังกัดวัด รอตรวจสอบใบสุทธิ</span>
+</div>
+</td>
+<td class="p-space-sm text-center">
+<span class="bg-error-container text-on-error-container px-space-xs py-space-2xs rounded-full font-label-sm text-label-sm whitespace-nowrap">
+                ต้องทบทวนเอกสาร
+              </span>
+</td>
+<td class="p-space-sm text-center">
+<div class="flex items-center justify-center gap-space-2xs">
+<button class="approve-btn p-1 text-emerald-700 hover:bg-emerald-50 rounded" title="อนุมัติเฉพาะรายการนี้">
+<span class="material-symbols-outlined text-base">done</span>
+</button>
+<button class="return-btn p-1 text-error hover:bg-error-container rounded" title="ส่งกลับแก้ไข">
+<span class="material-symbols-outlined text-base">reply</span>
+</button>
+<button class="p-1 text-primary hover:bg-surface-container rounded" title="ตรวจสอบเชิงลึก">
+<span class="material-symbols-outlined text-base">visibility</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 4: Phra Nakhon Si Ayutthaya -->
+<tr class="hover:bg-surface-container-low transition-colors bg-surface-container-low/40">
+<td class="p-space-sm text-center">
+<input class="row-checkbox rounded w-4 h-4 text-primary focus:ring-primary" data-province="พระนครศรีอยุธยา" data-quota="195" type="checkbox"/>
+</td>
+<td class="p-space-sm">
+<div class="font-title-md text-title-md text-primary font-medium">จังหวัดพระนครศรีอยุธยา</div>
+<div class="text-on-surface-variant text-[11px]">สพป.อย. เขต 1-2 &amp; สพม.นนทบุรี-อยุธยา • สำนักพุทธ อยุธยา</div>
+</td>
+<td class="p-space-sm text-center font-medium">210</td>
+<td class="p-space-sm text-right text-on-surface-variant">200</td>
+<td class="p-space-sm text-right font-medium">195</td>
+<td class="p-space-sm text-right font-bold text-primary">195</td>
+<td class="p-space-sm text-right font-bold text-on-surface">1.95 ลบ.</td>
+<td class="p-space-sm">
+<div class="flex items-center gap-space-2xs text-on-surface-variant">
+<span class="material-symbols-outlined text-xs text-emerald-600">attachment</span>
+<span class="truncate max-w-[210px] text-xs">มติเห็นชอบเป็นเอกฉันท์ หลักฐานผ่านเกณฑ์ 100%</span>
+</div>
+</td>
+<td class="p-space-sm text-center">
+<span class="bg-emerald-100 text-emerald-800 px-space-xs py-space-2xs rounded-full font-label-sm text-label-sm whitespace-nowrap">
+                อนุมัติแล้ว (Phase 1)
+              </span>
+</td>
+<td class="p-space-sm text-center">
+<div class="flex items-center justify-center gap-space-2xs">
+<span class="material-symbols-outlined text-emerald-600 text-base" title="อนุมัติเรียบร้อยแล้ว">task_alt</span>
+<button class="p-1 text-primary hover:bg-surface-container rounded" title="ดูหนังสือคำสั่ง">
+<span class="material-symbols-outlined text-base">print</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Table Footer / Summary Bar -->
+<div class="mt-space-md pt-space-sm flex flex-wrap items-center justify-between gap-space-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center gap-space-sm">
+<span>แสดง 4 จาก 77 รายการจังหวัด</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="text-primary font-medium">ยอดรวมงบประมาณที่เห็นชอบในหน้านี้: 13.65 ล้านบาท</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-xs py-1 rounded hover:bg-surface-container text-on-surface font-label-sm">หน้าก่อนหน้า</button>
+<span class="bg-primary text-on-primary px-space-xs py-0.5 rounded font-label-sm">1</span>
+<button class="px-space-xs py-1 rounded hover:bg-surface-container text-on-surface font-label-sm">2</button>
+<button class="px-space-xs py-1 rounded hover:bg-surface-container text-on-surface font-label-sm">3</button>
+<button class="px-space-xs py-1 rounded hover:bg-surface-container text-on-surface font-label-sm">หน้าถัดไป</button>
+</div>
+</div>
+</div>
+<!-- SECTION 3: AUDIT TRAIL & ACTIVITY LOG (CRYPTOGRAPHIC SHA-256) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+<div class="flex flex-wrap items-center justify-between gap-space-md mb-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-tertiary-container text-on-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined">security</span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs">
+<h2 class="font-title-lg text-title-lg text-on-surface">บันทึกประวัติการตรวจสอบย้อนกลับทางกฎหมาย (Cryptographic Audit Trail)</h2>
+<span class="bg-primary-container text-on-primary text-[10px] px-2 py-0.5 rounded uppercase font-mono tracking-wider">IMMUTABLE LOG</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">บันทึกกิจกรรมที่มีผลต่อการเปลี่ยนแปลงงบประมาณ สิทธิประโยชน์ และสถานะสมณศักดิ์ โดยรองรับการตรวจทานของ สตง.</p>
+</div>
+</div>
+<!-- Search & Filters in Audit Trail -->
+<div class="flex items-center gap-space-sm flex-wrap">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-2.5 top-2.5 text-outline text-sm">search</span>
+<input class="bg-surface-container-low text-on-surface pl-8 pr-space-md py-1.5 rounded-lg text-body-sm focus:outline-none focus:ring-1 focus:ring-primary w-64" placeholder="ค้นหาด้วย Hash, เลขบัตร, จังหวัด..." type="text"/>
+</div>
+<select class="bg-surface-container-low text-on-surface px-space-sm py-1.5 rounded-lg text-body-sm focus:outline-none">
+<option>ประเภท: ทั้งหมด</option>
+<option>APPROVE_QUOTA (อนุมัติโควตา)</option>
+<option>STATUS_DISROBED (ลาสิกขา)</option>
+<option>ALLOCATION_MODIFIED (เกลี่ยโควตา)</option>
+</select>
+</div>
+</div>
+<!-- Audit Log Table -->
+<div class="overflow-x-auto rounded-lg">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
+<tr>
+<th class="p-space-sm w-36">วัน-เวลา (ประทับตรา)</th>
+<th class="p-space-sm">ผู้ดำเนินการ (User &amp; Role)</th>
+<th class="p-space-sm text-center">ประเภทการกระทำ</th>
+<th class="p-space-sm">วัตถุที่เกิดการเปลี่ยนแปลง</th>
+<th class="p-space-sm">ค่าเดิม → ค่าใหม่</th>
+<th class="p-space-sm">ความถูกต้องทางนิติธรรม (Audit Hash SHA-256)</th>
+</tr>
+</thead>
+<tbody class="text-on-surface">
+<!-- Log Entry 1: Central Admin Approval -->
+<tr class="hover:bg-surface-container-low transition-colors bg-surface-container-lowest">
+<td class="p-space-sm whitespace-nowrap">
+<span class="font-medium text-primary block">18 พ.ค. 2568</span>
+<span class="text-[11px] text-on-surface-variant">15:10:44 น.</span>
+</td>
+<td class="p-space-sm">
+<div class="font-medium text-on-surface">นายนริศ สุวรรณสิทธิ์</div>
+<div class="text-on-surface-variant text-[11px]">ผอ.ส่วนการศึกษาพระพุทธศาสนา (ผู้บริหารส่วนกลาง)</div>
+</td>
+<td class="p-space-sm text-center">
+<span class="bg-emerald-100 text-emerald-800 text-[11px] font-semibold px-2 py-0.5 rounded-full whitespace-nowrap">
+                APPROVE_QUOTA
+              </span>
+</td>
+<td class="p-space-sm">
+<span class="font-medium text-primary">จ.เชียงใหม่ (รหัสเขต CM-2568)</span>
+<div class="text-[11px] text-on-surface-variant">คำสั่งอนุมัติโควตาประจำปีการศึกษา 2568</div>
+</td>
+<td class="p-space-sm">
+<div class="text-xs">
+<span class="text-on-surface-variant line-through">PENDING_FINAL</span>
+<span class="text-primary font-bold mx-1">→</span>
+<span class="text-emerald-700 font-bold">APPROVED (420 อัตรา)</span>
+</div>
+<div class="text-[11px] text-on-surface-variant">งบประมาณ: 4.20 ล้านบาท/เดือน</div>
+</td>
+<td class="p-space-sm font-mono text-[11px]">
+<div class="flex items-center gap-space-2xs">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+<span class="text-primary-container truncate max-w-[170px]" title="e4b8a7c29f041b65ad5733f1190bc988229b4e5486241a27e">e4b8a7c29f04...86241a27e</span>
+<button class="text-outline hover:text-primary copy-hash-btn" data-hash="e4b8a7c29f041b65ad5733f1190bc988229b4e5486241a27ef902b11a5" title="คัดลอก Full Hash">
+<span class="material-symbols-outlined text-xs">content_copy</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Log Entry 2: Disrobed Status Change -->
+<tr class="hover:bg-surface-container-low transition-colors bg-surface-container-low/40">
+<td class="p-space-sm whitespace-nowrap">
+<span class="font-medium text-primary block">18 พ.ค. 2568</span>
+<span class="text-[11px] text-on-surface-variant">14:32:19 น.</span>
+</td>
+<td class="p-space-sm">
+<div class="font-medium text-on-surface">นายประสิทธิ์ วงศ์ไทย</div>
+<div class="text-on-surface-variant text-[11px]">เจ้าหน้าที่วิชาการศาสนาชำนาญการ (พศจ.ขอนแก่น)</div>
+</td>
+<td class="p-space-sm text-center">
+<span class="bg-error-container text-on-error-container text-[11px] font-semibold px-2 py-0.5 rounded-full whitespace-nowrap">
+                STATUS_DISROBED
+              </span>
+</td>
+<td class="p-space-sm">
+<span class="font-medium text-on-surface">พระสมศักดิ์ ปญฺญาวโร (สุทธิ 40102...)</span>
+<div class="text-[11px] text-on-surface-variant">รร.วัดบ้านดอน (ขอนแก่น เขต 2)</div>
+</td>
+<td class="p-space-sm">
+<div class="text-xs">
+<span class="text-emerald-700">ACTIVE_MONK</span>
+<span class="text-primary font-bold mx-1">→</span>
+<span class="text-error font-bold">DISROBED</span>
+</div>
+<div class="text-[11px] text-secondary font-medium">โควตาปรับเป็น: SLOT_VACANT</div>
+</td>
+<td class="p-space-sm font-mono text-[11px]">
+<div class="flex items-center gap-space-2xs">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+<span class="text-primary-container truncate max-w-[170px]" title="9f1a2380dca87352b0f491c7a884e91244519bc165389d421">9f1a2380dca8...65389d421</span>
+<button class="text-outline hover:text-primary copy-hash-btn" data-hash="9f1a2380dca87352b0f491c7a884e91244519bc165389d42188fa612" title="คัดลอก Full Hash">
+<span class="material-symbols-outlined text-xs">content_copy</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Log Entry 3: Provincial Quota Redistribution -->
+<tr class="hover:bg-surface-container-low transition-colors bg-surface-container-lowest">
+<td class="p-space-sm whitespace-nowrap">
+<span class="font-medium text-primary block">18 พ.ค. 2568</span>
+<span class="text-[11px] text-on-surface-variant">11:15:02 น.</span>
+</td>
+<td class="p-space-sm">
+<div class="font-medium text-on-surface">พระมหาชวลิต เขมปญฺโญ</div>
+<div class="text-on-surface-variant text-[11px]">เลขานุการเจ้าคณะจังหวัดเชียงใหม่ (ฝ่ายการศึกษา)</div>
+</td>
+<td class="p-space-sm text-center">
+<span class="bg-secondary-fixed text-on-secondary-fixed text-[11px] font-semibold px-2 py-0.5 rounded-full whitespace-nowrap">
+                REALLOCATION
+              </span>
+</td>
+<td class="p-space-sm">
+<span class="font-medium text-on-surface">โควตา สพป. เชียงใหม่ เขต 5 → เขต 6</span>
+<div class="text-[11px] text-on-surface-variant">มติคณะกรรมการสงฆ์จังหวัด ครั้งที่ 4/2568</div>
+</td>
+<td class="p-space-sm">
+<div class="text-xs">
+<span>สพป.5: 65 → 60</span>
+<span class="text-on-surface-variant mx-1">|</span>
+<span>สพป.6: 45 → 50 (+5 อัตรา)</span>
+</div>
+<div class="text-[11px] text-on-surface-variant">รร.พื้นที่ภูเขาสูง อำเภออมก๋อย</div>
+</td>
+<td class="p-space-sm font-mono text-[11px]">
+<div class="flex items-center gap-space-2xs">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+<span class="text-primary-container truncate max-w-[170px]" title="43ab88ef21c179834a023b9d0315ef987621aa90145c22998">43ab88ef21c1...145c22998</span>
+<button class="text-outline hover:text-primary copy-hash-btn" data-hash="43ab88ef21c179834a023b9d0315ef987621aa90145c229988a0bc4" title="คัดลอก Full Hash">
+<span class="material-symbols-outlined text-xs">content_copy</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Log Entry 4: Academic Degree Adjustment -->
+<tr class="hover:bg-surface-container-low transition-colors bg-surface-container-low/40">
+<td class="p-space-sm whitespace-nowrap">
+<span class="font-medium text-primary block">17 พ.ค. 2568</span>
+<span class="text-[11px] text-on-surface-variant">16:48:33 น.</span>
+</td>
+<td class="p-space-sm">
+<div class="font-medium text-on-surface">นางสาววิไลลักษณ์ พลอยงาม</div>
+<div class="text-on-surface-variant text-[11px]">นักวิชาการคอมพิวเตอร์ (สพฐ. ส่วนกลาง)</div>
+</td>
+<td class="p-space-sm text-center">
+<span class="bg-surface-container-high text-on-surface text-[11px] font-semibold px-2 py-0.5 rounded-full whitespace-nowrap">
+                UPDATE_PROFILE
+              </span>
+</td>
+<td class="p-space-sm">
+<span class="font-medium text-on-surface">พระครูปลัดสมพร ธมฺมวโร (วัดชลประทาน)</span>
+<div class="text-[11px] text-on-surface-variant">ปรับวุฒิการศึกษาตามประกาศ มส. ล่าสุด</div>
+</td>
+<td class="p-space-sm">
+<div class="text-xs">
+<span>เปรียญธรรม ๕ ประโยค</span>
+<span class="text-primary font-bold mx-1">→</span>
+<span class="text-primary font-bold">เปรียญธรรม ๖ ประโยค (ป.ธ.๖)</span>
+</div>
+<div class="text-[11px] text-on-surface-variant">ปรับอัตราค่าตอบแทนพิเศษตามระเบียบ</div>
+</td>
+<td class="p-space-sm font-mono text-[11px]">
+<div class="flex items-center gap-space-2xs">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+<span class="text-primary-container truncate max-w-[170px]" title="7890fe45acbb2048991a0c8410294e5b77821a980bc291884">7890fe45acbb...0bc291884</span>
+<button class="text-outline hover:text-primary copy-hash-btn" data-hash="7890fe45acbb2048991a0c8410294e5b77821a980bc291884488fa7" title="คัดลอก Full Hash">
+<span class="material-symbols-outlined text-xs">content_copy</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Verification Badge Footer -->
+<div class="mt-space-md p-space-sm bg-surface-container-low rounded-lg flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-emerald-700 text-sm">verified_user</span>
+<span>ระบบบันทึกแบบ Block-chain Linked Ledger ทุกการยืนยันได้รับการลงนามดิจิทัล (Digital Signature) ตาม พ.ร.บ.ธุรกรรมทางอิเล็กทรอนิกส์</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-mono text-[11px] text-outline">Genesis Block ID: #2568-MOE-ONAB-001</span>
+<button class="text-primary hover:underline font-label-sm text-label-sm flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-xs">download</span> บันทึกรายงาน สตง. สมบูรณ์
+        </button>
+</div>
+</div>
+</div>
+<!-- POPUP / MODAL: RETURN WITH COMMENT (Hidden by default, controlled via JS) -->
+<div class="fixed inset-0 z-50 flex items-center justify-center bg-primary/50 backdrop-blur-sm hidden" id="modal-return">
+<div class="bg-surface-container-lowest rounded-xl max-w-lg w-full mx-gutter-mobile p-space-lg shadow-xl animate-fade-in">
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-container">
+<div class="flex items-center gap-space-xs text-error">
+<span class="material-symbols-outlined">warning</span>
+<span class="font-title-lg text-title-lg">ส่งกลับเพื่อทบทวนคำขอโควตา</span>
+</div>
+<button class="p-1 text-on-surface-variant hover:bg-surface-container rounded-lg" id="modal-close-btn">
+<span class="material-symbols-outlined text-base">close</span>
+</button>
+</div>
+<div class="py-space-md flex flex-col gap-space-sm">
+<div class="font-body-md text-body-md text-on-surface">
+          คุณกำลังส่งกลับคำขอของ <strong class="text-primary" id="modal-province-name">จังหวัดนครศรีธรรมราช</strong> ให้สำนักงานเขตพื้นที่การศึกษาและเจ้าคณะจังหวัดตรวจสอบซ้ำ
+        </div>
+<div class="flex flex-col gap-space-2xs">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-semibold">ระบุเหตุผลและประเด็นที่ต้องแก้ไข (ข้อบังคับ)</label>
+<textarea class="w-full bg-surface-container-low border border-surface-container rounded-lg p-space-sm text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary" id="modal-return-reason" placeholder="ตัวอย่าง: เอกสารใบสุทธิพระสอนไม่ตรงกับทะเบียนวัด, ภาระงานสอนต่ำกว่า 8 คาบต่อสัปดาห์..." rows="3"></textarea>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-sm">info</span>
+<span>ระบบจะส่งหนังสือแจ้งเตือนแบบเร่งด่วนไปยังอีเมลเจ้าหน้าที่ พศจ. และ สพท. ที่เกี่ยวข้องทันที</span>
+</div>
+</div>
+<div class="flex items-center justify-end gap-space-sm pt-space-sm border-t border-surface-container">
+<button class="px-space-md py-space-xs rounded-lg hover:bg-surface-container text-on-surface font-label-lg text-label-lg" id="modal-cancel-btn">
+          ยกเลิก
+        </button>
+<button class="bg-error hover:bg-on-error-container text-on-error px-space-md py-space-xs rounded-lg font-label-lg text-label-lg flex items-center gap-space-2xs shadow-sm" id="modal-confirm-return-btn">
+<span class="material-symbols-outlined text-sm">send</span>
+          ยืนยันการส่งกลับแก้ไข
+        </button>
+</div>
+</div>
+</div>
+<!-- POPUP / MODAL: SNAPSHOT HISTORY VIEW -->
+<div class="fixed inset-0 z-50 flex items-center justify-center bg-primary/50 backdrop-blur-sm hidden" id="modal-snapshot">
+<div class="bg-surface-container-lowest rounded-xl max-w-2xl w-full mx-gutter-mobile p-space-lg shadow-xl">
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-container">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined">inventory_2</span>
+<span class="font-title-lg text-title-lg">Snapshot ประวัติการจัดสรรย้อนหลัง (Historical Baseline)</span>
+</div>
+<button class="p-1 text-on-surface-variant hover:bg-surface-container rounded-lg" id="modal-snapshot-close-btn">
+<span class="material-symbols-outlined text-base">close</span>
+</button>
+</div>
+<div class="py-space-md flex flex-col gap-space-md">
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<span class="text-xs text-on-surface-variant block">งวดไตรมาส 1/2568</span>
+<span class="font-title-md text-primary font-bold">24,100 อัตรา</span>
+<span class="text-[10px] text-emerald-700 block mt-1">อนุมัติ: 15 ม.ค. 2568</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<span class="text-xs text-on-surface-variant block">งวดประจำปี 2567</span>
+<span class="font-title-md text-primary font-bold">23,800 อัตรา</span>
+<span class="text-[10px] text-on-surface-variant block mt-1">ปิดงบดุลแล้วเสร็จ</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<span class="text-xs text-on-surface-variant block">งวดประจำปี 2566</span>
+<span class="font-title-md text-primary font-bold">22,950 อัตรา</span>
+<span class="text-[10px] text-on-surface-variant block mt-1">รับรองโดย สตง.</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-md rounded-lg">
+<h4 class="font-label-lg font-semibold text-primary mb-space-xs">การเปรียบเทียบความต้องการโควตารายปี</h4>
+<p class="text-body-sm text-on-surface-variant mb-space-sm">ปีงบประมาณ 2568 มีจำนวนโรงเรียนแจ้งความประสงค์เพิ่มขึ้น 4.2% โดยเฉพาะในกลุ่มโรงเรียนขยายโอกาสและโรงเรียนชายขอบ</p>
+<div class="flex items-center gap-space-md text-body-sm">
+<span class="flex items-center gap-1"><span class="w-3 h-3 bg-primary rounded"></span> ปี 2568 (ปัจจุบัน)</span>
+<span class="flex items-center gap-1"><span class="w-3 h-3 bg-secondary rounded"></span> ปี 2567 (ปีก่อนหน้า)</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-end pt-space-sm border-t border-surface-container">
+<button class="bg-primary text-on-primary px-space-md py-space-xs rounded-lg font-label-lg" id="modal-snapshot-ok-btn">
+          ปิดหน้าต่าง
+        </button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Dynamic batch selection calculator
+  const checkAll = document.getElementById('check-all');
+  const rowCheckboxes = document.querySelectorAll('.row-checkbox');
+  const selectedCountLabel = document.getElementById('selected-count-label');
+  const batchApproveBtn = document.getElementById('btn-batch-approve');
+  const batchReturnBtn = document.getElementById('btn-batch-return');
+
+  function updateBatchStats() {
+    let checkedCount = 0;
+    let totalQuota = 0;
+    rowCheckboxes.forEach(cb => {
+      if (cb.checked) {
+        checkedCount++;
+        totalQuota += parseInt(cb.dataset.quota || '0', 10);
+      }
+    });
+
+    if (checkedCount === 0) {
+      selectedCountLabel.textContent = 'ยังไม่ได้เลือก';
+      batchApproveBtn.disabled = true;
+      batchApproveBtn.classList.add('opacity-50', 'cursor-not-allowed');
+    } else {
+      selectedCountLabel.textContent = `${checkedCount} จังหวัด (${totalQuota.toLocaleString()} อัตรา)`;
+      batchApproveBtn.disabled = false;
+      batchApproveBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+    }
+  }
+
+  if (checkAll) {
+    checkAll.addEventListener('change', (e) => {
+      rowCheckboxes.forEach(cb => cb.checked = e.target.checked);
+      updateBatchStats();
+    });
+  }
+
+  rowCheckboxes.forEach(cb => {
+    cb.addEventListener('change', () => {
+      updateBatchStats();
+      if (checkAll) {
+        const allChecked = Array.from(rowCheckboxes).every(c => c.checked);
+        checkAll.checked = allChecked;
+      }
+    });
+  });
+
+  // Modal interaction: Return with Comment
+  const modalReturn = document.getElementById('modal-return');
+  const modalCloseBtn = document.getElementById('modal-close-btn');
+  const modalCancelBtn = document.getElementById('modal-cancel-btn');
+  const modalConfirmReturnBtn = document.getElementById('modal-confirm-return-btn');
+  const modalProvinceName = document.getElementById('modal-province-name');
+  const returnButtons = document.querySelectorAll('.return-btn');
+
+  function openReturnModal(province = 'จังหวัดที่เลือก') {
+    if (modalProvinceName) modalProvinceName.textContent = province;
+    if (modalReturn) modalReturn.classList.remove('hidden');
+  }
+
+  function closeReturnModal() {
+    if (modalReturn) modalReturn.classList.add('hidden');
+  }
+
+  returnButtons.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const row = e.target.closest('tr');
+      const prov = row.querySelector('.font-title-md')?.textContent || 'จังหวัดที่เลือก';
+      openReturnModal(prov);
+    });
+  });
+
+  if (batchReturnBtn) {
+    batchReturnBtn.addEventListener('click', () => {
+      openReturnModal('กลุ่มจังหวัดที่เลือก (Batch)');
+    });
+  }
+
+  if (modalCloseBtn) modalCloseBtn.addEventListener('click', closeReturnModal);
+  if (modalCancelBtn) modalCancelBtn.addEventListener('click', closeReturnModal);
+  if (modalConfirmReturnBtn) {
+    modalConfirmReturnBtn.addEventListener('click', () => {
+      alert('ระบบได้ส่งหนังสือแจ้งกลับและบันทึกประวัติการส่งกลับเรียบร้อยแล้ว');
+      closeReturnModal();
+    });
+  }
+
+  // Snapshot modal
+  const btnShowSnapshot = document.getElementById('btn-show-snapshot');
+  const modalSnapshot = document.getElementById('modal-snapshot');
+  const modalSnapshotCloseBtn = document.getElementById('modal-snapshot-close-btn');
+  const modalSnapshotOkBtn = document.getElementById('modal-snapshot-ok-btn');
+
+  if (btnShowSnapshot && modalSnapshot) {
+    btnShowSnapshot.addEventListener('click', () => modalSnapshot.classList.remove('hidden'));
+  }
+  if (modalSnapshotCloseBtn) modalSnapshotCloseBtn.addEventListener('click', () => modalSnapshot.classList.add('hidden'));
+  if (modalSnapshotOkBtn) modalSnapshotOkBtn.addEventListener('click', () => modalSnapshot.classList.add('hidden'));
+
+  // Copy hash micro-interaction
+  const copyButtons = document.querySelectorAll('.copy-hash-btn');
+  copyButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const hash = btn.getAttribute('data-hash');
+      if (navigator.clipboard && hash) {
+        navigator.clipboard.writeText(hash).then(() => {
+          const original = btn.innerHTML;
+          btn.innerHTML = '<span class="material-symbols-outlined text-xs text-emerald-600">check</span>';
+          setTimeout(() => btn.innerHTML = original, 1800);
+        });
+      }
+    });
+  });
+
+  // Batch approve action
+  if (batchApproveBtn) {
+    batchApproveBtn.addEventListener('click', () => {
+      alert('อนุมัติคำขอโควตาสำหรับรายการที่เลือกเรียบร้อย พร้อมสร้างรหัสตรวจสอบ Cryptographic Audit Hash');
+    });
+  }
+</script></main></div></body></html>

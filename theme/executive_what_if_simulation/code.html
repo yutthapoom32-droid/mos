@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+
+<html lang="th"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-error":"#ffffff","on-surface":"#0d1c2f","surface-variant":"#d5e3fd","primary":"#002046","tertiary":"#06223a","inverse-on-surface":"#ebf1ff","on-primary-container":"#87a0cd","on-secondary":"#ffffff","surface-dim":"#ccdbf4","on-tertiary-container":"#89a0bf","on-tertiary":"#ffffff","error-container":"#ffdad6","tertiary-container":"#1f3751","surface":"#f8f9ff","on-primary-fixed-variant":"#2e476f","primary-container":"#1b365d","on-error-container":"#93000a","on-tertiary-fixed-variant":"#314863","secondary":"#9b4500","primary-fixed":"#d6e3ff","secondary-fixed":"#ffdbca","background":"#f8f9ff","surface-container-lowest":"#ffffff","primary-fixed-dim":"#aec7f7","secondary-container":"#fd8a42","secondary-fixed-dim":"#ffb68e","inverse-primary":"#aec7f7","surface-container-highest":"#d5e3fd","on-primary":"#ffffff","error":"#ba1a1a","surface-bright":"#f8f9ff","tertiary-fixed-dim":"#b0c9e8","on-background":"#0d1c2f","outline":"#74777f","on-primary-fixed":"#001b3d","surface-container-high":"#dde9ff","on-secondary-fixed":"#331200","tertiary-fixed":"#d1e4ff","surface-tint":"#465f88","on-surface-variant":"#44474e","surface-container-low":"#eff4ff","on-secondary-fixed-variant":"#763300","on-secondary-container":"#682c00","inverse-surface":"#233144","surface-container":"#e6eeff","outline-variant":"#c4c6cf","on-tertiary-fixed":"#011d35"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"1rem","gutter-desktop":"1.5rem","space-xl":"2rem","space-2xl":"3rem","space-lg":"1.5rem","space-md":"1rem","space-sm":"0.75rem","space-xs":"0.5rem","container-max":"1440px","space-2xs":"0.25rem"},"fontFamily":{"body-sm":["Inter"],"body-lg":["Inter"],"title-md":["Inter"],"label-sm":["Inter"],"label-lg":["Inter"],"title-lg":["Inter"],"headline-lg":["Inter"],"headline-lg-mobile":["Inter"],"metric-num":["Inter"],"body-md":["Inter"],"headline-md":["Inter"],"display-lg":["Inter"],"label-md":["Inter"]},"fontSize":{"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"title-md":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.03em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.005em","fontWeight":"500"}],"title-lg":["18px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"600"}],"headline-lg":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-lg-mobile":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"metric-num":["28px",{"lineHeight":"32px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"display-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased min-h-screen"><header class="fixed top-0 w-full z-50 bg-primary text-on-primary shadow-[0_1px_8px_rgba(0,0,0,0.08)]"><div class="h-20 w-full px-gutter-desktop flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1W7e0NFUgoXWJJJrRhUhCvFsSobRnStp6e9Uvl3tNWBe8EI6aD2OzJoiAxkiG3AparGRpD_Qzzbs-bFvlDIGzoHwLgeFH1IXOfdZZdJLIqrY2S_60_bVEtOU6Vi5niXmzhBLf9dsqAGnRR_VhJuSYc006MYAGxuEiY6LBD8WH27hB_CZt7YAO8r-OfV1Gbv8c-5A6J_EvpVz3yMOntW1EtamUhBH-_5DaxBV9F6trRxBGp0_3Eh6Ol0Zbs"/><div class="flex flex-col"><span class="font-title-lg text-title-lg text-on-primary tracking-tight">ระบบประเมินและจัดสรรจำนวนพระสอนศีลธรรม</span><span class="font-body-sm text-body-sm text-on-primary-container font-light">โครงการพระสอนศีลธรรมในโรงเรียน • แพลตฟอร์มกลางบริหารจัดการและจัดสรรโควตาระดับชาติ</span></div></div><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-xs bg-primary-container px-space-md py-space-xs rounded-lg"><div class="flex flex-col text-right"><span class="font-label-sm text-label-sm text-on-primary-container">บทบาทผู้ใช้งาน</span><span class="font-label-lg text-label-lg text-on-primary font-medium">ส่วนกลาง (Central Admin / Executive)</span></div><span class="bg-secondary text-on-secondary px-space-xs py-space-2xs rounded font-label-sm text-label-sm ml-space-xs">ปีงบประมาณ 2568</span></div><div class="relative flex items-center justify-center"><button class="w-10 h-10 rounded-full flex items-center justify-center bg-primary-container text-on-primary hover:bg-tertiary-container transition-colors" title="การแจ้งเตือน"><span class="material-symbols-outlined">notifications</span></button><span class="absolute top-1 right-1 w-2.5 h-2.5 bg-secondary-container rounded-full ring-2 ring-primary"></span></div><div class="flex items-center gap-space-sm pl-space-sm border-l border-primary-container"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1W7e0NFUgoXWJJJrRhUhCvFsSobRnStp6e9Uvl3tNWBe8EI6aD2OzJoiAxkiG3AparGRpD_Qzzbs-bFvlDIGzoHwLgeFH1IXOfdZZdJLIqrY2S_60_bVEtOU6Vi5niXmzhBLf9dsqAGnRR_VhJuSYc006MYAGxuEiY6LBD8WH27hB_CZt7YAO8r-OfV1Gbv8c-5A6J_EvpVz3yMOntW1EtamUhBH-_5DaxBV9F6trRxBGp0_3Eh6Ol0Zbs"/><div class="flex flex-col text-left"><span class="font-label-lg text-label-lg text-on-primary font-medium leading-none">พระมหาประเสริฐ / นายนริศ สุวรรณสิทธิ์</span><span class="font-label-sm text-label-sm text-on-primary-container mt-space-2xs">ผู้ดูแลระบบส่วนกลาง (Super Admin)</span></div></div></div></div><div class="w-full bg-surface-container-lowest px-gutter-desktop shadow-[0_1px_4px_rgba(0,0,0,0.03)]"><nav class="flex items-center gap-space-xl overflow-x-auto" data-active-classes="border-b-2 border-secondary text-secondary font-title-md"><a aria-current="page" class="py-space-md transition-colors whitespace-nowrap border-b-2 border-secondary text-secondary font-title-md" data-path="executive-dashboard" href="#">แดชบอร์ดภาพรวมและจำลองงบประมาณ</a><a class="py-space-md font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-path="school-quota-calculation" href="#">บันทึกคำขอและคำนวณโควตาโรงเรียน</a><a class="py-space-md font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-path="monk-roster-workload" href="#">ทะเบียนและตรวจสอบภาระงานพระสอน</a><a class="py-space-md font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-path="approval-audit-trail" href="#">ขั้นตอนการอนุมัติและประวัติการตรวจสอบ</a></nav></div></header><aside class="fixed left-0 top-36 h-[calc(100vh-9rem)] w-64 bg-surface-container-lowest z-40 flex flex-col p-space-md overflow-y-auto shadow-[1px_0_4px_rgba(0,0,0,0.02)]"><div class="mb-space-md px-space-xs"><span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">การแบ่งเขตปกครอง / ภูมิภาค</span></div><nav class="flex-1 flex flex-col gap-space-2xs" data-active-classes="bg-primary-container text-on-primary font-title-md"><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg transition-colors bg-primary-container text-on-primary font-title-md" data-path="executive-dashboard" href="#"><span class="material-symbols-outlined text-outline">public</span>ภาพรวมทั้งประเทศ</a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="school-quota-calculation" href="#"><span class="material-symbols-outlined text-outline">account_balance</span>สำนักงานเขตพื้นที่การศึกษา</a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="monk-roster-workload" href="#"><span class="material-symbols-outlined text-outline">temple_buddhist</span>สำนักงานเจ้าคณะจังหวัด / อำเภอ</a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="approval-audit-trail" href="#"><span class="material-symbols-outlined text-outline">verified_user</span>ทะเบียนพิจารณาคำขอระดับเขต</a></nav><div class="mt-auto pt-space-md border-t border-surface-container"><div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col gap-space-2xs"><span class="font-label-sm text-label-sm text-on-surface-variant">สถานะเชื่อมโยงข้อมูล</span><div class="flex items-center gap-space-2xs"><span class="w-2 h-2 rounded-full bg-emerald-500"></span><span class="font-body-sm text-body-sm text-on-surface">ระบบสารสนเทศ สพฐ. เชื่อมต่อแล้ว</span></div></div></div></aside><div class="pl-64"><main class="w-full pt-36 px-gutter-desktop pb-space-2xl bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- System Alert Rule 2 Banner (Autonomous Disrobing Enforcement) -->
+<div class="mb-space-lg bg-surface-container-high rounded-xl p-space-md shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-on-secondary shrink-0">
+<span class="material-symbols-outlined text-title-lg">shield_with_heart</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="font-title-md text-title-md text-on-surface">การบังคับใช้กฎระเบียบข้อ 2: ตรวจพบพระลาสิกขา (Disrobed) ประจำรอบเดือน</span>
+<span class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-space-xs py-space-2xs rounded-full">14 รูปในรอบ 30 วัน</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">ระบบได้ปรับสถานะเป็น <strong class="text-secondary font-medium">SLOT_VACANT (ตำแหน่งว่างรอจัดสรร)</strong> และสั่งระงับสิทธิ์การเบิกจ่ายนิตยภัตส่วนกลางอัตโนมัติแล้ว 100% พร้อมส่งหนังสือรายงานไปยังสำนักงานเจ้าคณะจังหวัด</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs shrink-0 self-end md:self-center">
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm hover:bg-surface-container transition-colors">
+          ตรวจสอบบัญชีรายชื่อ 14 รูป
+        </button>
+<button class="w-8 h-8 rounded-lg flex items-center justify-center text-on-surface-variant hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-title-md">close</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Main Institutional KPI Grid (Elevation 1 Cards) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-md mb-space-xl">
+<!-- Active Monks Card -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">พระสอนปฏิบัติหน้าที่จริง</span>
+<div class="w-7 h-7 rounded-full bg-surface-container-low flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-title-md">temple_buddhist</span>
+</div>
+</div>
+<div class="mt-space-sm flex items-baseline gap-space-2xs">
+<span class="font-metric-num text-metric-num text-on-surface">18,420</span>
+<span class="font-label-md text-label-md text-on-surface-variant">รูป</span>
+</div>
+<div class="mt-space-sm flex flex-col gap-space-2xs">
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 92.1%"></div>
+</div>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>เป้าหมาย 20,000 รูป</span>
+<span class="text-primary font-medium">92.1%</span>
+</div>
+</div>
+</div>
+<!-- Partner Schools Card -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">สถานศึกษาเข้าร่วมโครงการ</span>
+<div class="w-7 h-7 rounded-full bg-surface-container-low flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-title-md">school</span>
+</div>
+</div>
+<div class="mt-space-sm flex items-baseline gap-space-2xs">
+<span class="font-metric-num text-metric-num text-on-surface">28,450</span>
+<span class="font-label-md text-label-md text-on-surface-variant">แห่ง</span>
+</div>
+<div class="mt-space-sm flex items-center gap-space-2xs font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>สพป. 21,800 • สพม. 6,650</span>
+</div>
+</div>
+<!-- Allocated Quota -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">โควตาจัดสรรแล้ว (เขตพื้นที่)</span>
+<div class="w-7 h-7 rounded-full bg-surface-container-low flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-title-md">fact_check</span>
+</div>
+</div>
+<div class="mt-space-sm flex items-baseline gap-space-2xs">
+<span class="font-metric-num text-metric-num text-on-surface">19,100</span>
+<span class="font-label-md text-label-md text-on-surface-variant">อัตรา</span>
+</div>
+<div class="mt-space-sm flex justify-between items-center font-label-sm text-label-sm text-on-surface-variant">
+<span>ผูกสัญญาสมบูรณ์</span>
+<span class="bg-surface-container text-on-surface font-medium px-space-xs rounded">95.5% อนุมัติ</span>
+</div>
+</div>
+<!-- Vacant Slots (Highlighted alert card) -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">ตำแหน่งว่างรอจัดสรร</span>
+<div class="w-7 h-7 rounded-full bg-error-container flex items-center justify-center text-on-error-container">
+<span class="material-symbols-outlined text-title-md">person_remove</span>
+</div>
+</div>
+<div class="mt-space-sm flex items-baseline gap-space-2xs">
+<span class="font-metric-num text-metric-num text-secondary">380</span>
+<span class="font-label-md text-label-md text-secondary font-medium">อัตรา</span>
+</div>
+<div class="mt-space-sm flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-on-surface-variant">ลาสิกขา 140 • ย้ายสังกัด 240</span>
+<span class="text-secondary font-medium underline cursor-pointer">เปิดโควตา</span>
+</div>
+</div>
+<!-- Budget Disbursed -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">งบประมาณนิตยภัตเบิกจ่าย</span>
+<div class="w-7 h-7 rounded-full bg-surface-container-low flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-title-md">payments</span>
+</div>
+</div>
+<div class="mt-space-sm flex items-baseline gap-space-2xs">
+<span class="font-metric-num text-metric-num text-on-surface">184.20</span>
+<span class="font-label-md text-label-md text-on-surface-variant">ลบ.</span>
+</div>
+<div class="mt-space-sm flex flex-col gap-space-2xs">
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary-container h-full rounded-full" style="width: 92.1%"></div>
+</div>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>กรอบงบประมาณ 200.00 ลบ.</span>
+<span class="font-medium text-on-surface">คงเหลือ 15.80 ลบ.</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive What-If Budget & Quota Simulation Sandbox (PRD 1.2, 3.2, 4.1) -->
+<div class="mb-space-xl bg-surface-container-lowest rounded-xl shadow-sm p-space-lg">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between pb-space-md gap-space-md">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-space-2xs bg-primary-container text-on-primary rounded font-label-sm text-label-sm">โมเดลคำนวณขั้นสูง PRD 4.1</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">เครื่องมือจำลองจัดสรรโควตาและงบประมาณ (What-If Simulation Sandbox)</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-2xs">
+          ปรับสมมติฐานตัวแปรทางการศึกษา เพื่อพยากรณ์ความต้องการอัตราพระสอนและภาระงบประมาณเงินอุดหนุนนิตยภัตทั่วประเทศ
+        </p>
+</div>
+<!-- Action Buttons -->
+<div class="flex items-center gap-space-sm">
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container text-on-surface hover:bg-surface-variant transition-colors font-label-lg text-label-lg flex items-center gap-space-xs" id="resetSimBtn">
+<span class="material-symbols-outlined text-body-lg">restart_alt</span>
+          คืนค่าเริ่มต้น
+        </button>
+<button class="px-space-md py-space-xs rounded-lg bg-primary text-on-primary hover:bg-primary-container transition-colors font-label-lg text-label-lg flex items-center gap-space-xs shadow-sm" id="saveScenarioBtn">
+<span class="material-symbols-outlined text-body-lg">bookmark_add</span>
+          บันทึกแบบจำลองสถานการณ์
+        </button>
+<button class="px-space-md py-space-xs rounded-lg bg-secondary text-on-secondary hover:bg-on-secondary-container transition-colors font-label-lg text-label-lg flex items-center gap-space-xs shadow-sm" id="exportReportBtn">
+<span class="material-symbols-outlined text-body-lg">file_download</span>
+          ส่งออกรายงานของบประมาณ
+        </button>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg pt-space-md">
+<!-- Sliders Control Panel (5 Cols) -->
+<div class="lg:col-span-5 bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-lg">
+<div class="flex items-center justify-between pb-space-xs">
+<span class="font-title-md text-title-md text-on-surface">พารามิเตอร์กำหนดอัตราส่วน</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">สูตรคำนวณ: Base × W_type ÷ R_student</span>
+</div>
+<!-- Slider 1: Student Ratio -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center gap-space-xs" for="ratioSlider">
+<span>อัตราส่วนนักเรียนต่อพระ 1 รูป (R_student)</span>
+<span class="material-symbols-outlined text-outline text-body-sm" title="จำนวนนักเรียนเป้าหมายในการสอน 1 อัตรา">info</span>
+</label>
+<span class="font-title-md text-title-md text-primary bg-surface-container-lowest px-space-sm py-space-2xs rounded shadow-sm" id="ratioDisplay">100 คน</span>
+</div>
+<input class="w-full h-2 bg-surface-container-highest rounded-lg appearance-none cursor-pointer accent-primary" id="ratioSlider" max="120" min="80" step="10" type="range" value="100"/>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>80 คน (เข้มข้นสูง)</span>
+<span class="text-primary font-medium">100 คน (มาตรฐานปัจจุบัน)</span>
+<span>120 คน (ขยายการเข้าถึง)</span>
+</div>
+</div>
+<!-- Slider 2: W_type Weight Factor -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center gap-space-xs" for="weightSlider">
+<span>ค่าน้ำหนักพื้นที่ขยายโอกาส/พื้นที่พิเศษ (W_type)</span>
+<span class="material-symbols-outlined text-outline text-body-sm" title="ตัวคูณเสริมสำหรับโรงเรียนขนาดเล็กห่างไกล ชายแดน หรือเกาะ">info</span>
+</label>
+<span class="font-title-md text-title-md text-secondary bg-surface-container-lowest px-space-sm py-space-2xs rounded shadow-sm" id="weightDisplay">1.20</span>
+</div>
+<input class="w-full h-2 bg-surface-container-highest rounded-lg appearance-none cursor-pointer accent-secondary" id="weightSlider" max="1.5" min="1.0" step="0.05" type="range" value="1.20"/>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>1.00 (ไม่ถ่วงน้ำหนัก)</span>
+<span class="text-secondary font-medium">1.20 (เกณฑ์ กพฐ.)</span>
+<span>1.50 (สนับสนุนพิเศษ)</span>
+</div>
+</div>
+<!-- Slider 3: Allowance Stipend -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center gap-space-xs" for="allowanceSlider">
+<span>อัตราเงินนิตยภัตอุดหนุนต่อรูป/เดือน</span>
+<span class="material-symbols-outlined text-outline text-body-sm" title="ค่าตอบแทนรายเดือนตามระเบียบกรมการศาสนา">info</span>
+</label>
+<span class="font-title-md text-title-md text-primary bg-surface-container-lowest px-space-sm py-space-2xs rounded shadow-sm" id="allowanceDisplay">10,000 บาท</span>
+</div>
+<input class="w-full h-2 bg-surface-container-highest rounded-lg appearance-none cursor-pointer accent-primary" id="allowanceSlider" max="15000" min="8000" step="500" type="range" value="10000"/>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>8,000 บาท</span>
+<span class="font-medium text-primary">10,000 บาท (ฐานปัจจุบัน)</span>
+<span>15,000 บาท</span>
+</div>
+</div>
+<!-- System Presets Shortcuts -->
+<div class="pt-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant mb-space-xs block">สถานการณ์จำลองแนะนำ (Presets):</span>
+<div class="grid grid-cols-3 gap-space-xs">
+<button class="px-space-xs py-space-xs rounded bg-surface-container-lowest text-on-surface font-label-sm text-label-sm hover:bg-surface-variant transition-colors text-center shadow-sm" id="presetStandard">
+              มาตรฐานปี 2568
+            </button>
+<button class="px-space-xs py-space-xs rounded bg-surface-container-lowest text-on-surface font-label-sm text-label-sm hover:bg-surface-variant transition-colors text-center shadow-sm" id="presetIntensive">
+              เน้นคุณภาพ (R=80)
+            </button>
+<button class="px-space-xs py-space-xs rounded bg-surface-container-lowest text-on-surface font-label-sm text-label-sm hover:bg-surface-variant transition-colors text-center shadow-sm" id="presetRemote">
+              เน้นชนบท (W=1.4)
+            </button>
+</div>
+</div>
+</div>
+<!-- Comparative Scenario Results Matrix (7 Cols) -->
+<div class="lg:col-span-7 flex flex-col justify-between gap-space-md">
+<!-- Results Comparison Metric Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Total Quota Comparison -->
+<div class="p-space-md bg-surface-container-low rounded-xl flex flex-col justify-between">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>ความต้องการอัตรากำลังพระสอนรวม</span>
+<span class="material-symbols-outlined text-primary text-body-md">groups</span>
+</div>
+<div class="my-space-xs flex items-baseline gap-space-xs">
+<span class="font-body-md text-body-md text-on-surface-variant line-through">19,100</span>
+<span class="material-symbols-outlined text-on-surface-variant text-body-sm">arrow_forward</span>
+<span class="font-metric-num text-metric-num text-primary" id="simulatedQuotaVal">20,450</span>
+<span class="font-label-lg text-label-lg text-on-surface">อัตรา</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-on-surface-variant">ส่วนต่างจากฐานปัจจุบัน</span>
+<span class="bg-secondary-fixed text-on-secondary-fixed font-title-md text-label-sm px-space-xs py-space-2xs rounded-full" id="quotaDeltaBadge">+1,350 อัตรา (+7.06%)</span>
+</div>
+</div>
+<!-- Total Budget Comparison -->
+<div class="p-space-md bg-surface-container-low rounded-xl flex flex-col justify-between">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>งบประมาณนิตยภัตที่ต้องจัดสรรทั้งปี</span>
+<span class="material-symbols-outlined text-secondary text-body-md">account_balance_wallet</span>
+</div>
+<div class="my-space-xs flex items-baseline gap-space-xs">
+<span class="font-body-md text-body-md text-on-surface-variant line-through">191.00</span>
+<span class="material-symbols-outlined text-on-surface-variant text-body-sm">arrow_forward</span>
+<span class="font-metric-num text-metric-num text-secondary" id="simulatedBudgetVal">204.50</span>
+<span class="font-label-lg text-label-lg text-on-surface">ล้านบาท</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-on-surface-variant">ภาระงบประมาณเปลี่ยนแปลง</span>
+<span class="bg-secondary-fixed text-on-secondary-fixed font-title-md text-label-sm px-space-xs py-space-2xs rounded-full" id="budgetDeltaBadge">+13.50 ลบ. (+7.07%)</span>
+</div>
+</div>
+</div>
+<!-- Quarterly Cash Flow & Coverage Projection Visualizer -->
+<div class="p-space-md bg-surface-container-low rounded-xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-title-md text-title-md text-on-surface">การประมาณการรายไตรมาส (Q1 - Q4 ปีงบประมาณ 2568)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">เปรียบเทียบวงเงินฐาน (Base) กับโมเดลจำลองใหม่ (Simulated)</span>
+</div>
+<div class="flex items-center gap-space-sm font-label-sm text-label-sm">
+<div class="flex items-center gap-space-2xs">
+<span class="w-3 h-3 rounded-full bg-outline-variant"></span>
+<span class="text-on-surface-variant">ฐานเดิม</span>
+</div>
+<div class="flex items-center gap-space-2xs">
+<span class="w-3 h-3 rounded-full bg-primary"></span>
+<span class="text-on-surface font-medium">จำลองใหม่</span>
+</div>
+</div>
+</div>
+<!-- Quarterly Visual Bars (SVG Micro Chart) -->
+<div class="w-full flex flex-col gap-space-xs">
+<!-- Q1 -->
+<div class="grid grid-cols-12 items-center gap-space-xs font-label-sm text-label-sm">
+<span class="col-span-2 text-on-surface font-medium">ไตรมาส 1</span>
+<div class="col-span-8 flex flex-col gap-1">
+<div class="w-full bg-surface-container rounded-full h-2.5 overflow-hidden">
+<div class="bg-outline-variant h-full rounded-full" style="width: 70%"></div>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2.5 overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-300" id="q1Bar" style="width: 75%"></div>
+</div>
+</div>
+<div class="col-span-2 text-right text-on-surface">
+<span id="q1Text">51.13 ลบ.</span>
+</div>
+</div>
+<!-- Q2 -->
+<div class="grid grid-cols-12 items-center gap-space-xs font-label-sm text-label-sm">
+<span class="col-span-2 text-on-surface font-medium">ไตรมาส 2</span>
+<div class="col-span-8 flex flex-col gap-1">
+<div class="w-full bg-surface-container rounded-full h-2.5 overflow-hidden">
+<div class="bg-outline-variant h-full rounded-full" style="width: 70%"></div>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2.5 overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-300" id="q2Bar" style="width: 75%"></div>
+</div>
+</div>
+<div class="col-span-2 text-right text-on-surface">
+<span id="q2Text">51.13 ลบ.</span>
+</div>
+</div>
+<!-- Q3 -->
+<div class="grid grid-cols-12 items-center gap-space-xs font-label-sm text-label-sm">
+<span class="col-span-2 text-on-surface font-medium">ไตรมาส 3</span>
+<div class="col-span-8 flex flex-col gap-1">
+<div class="w-full bg-surface-container rounded-full h-2.5 overflow-hidden">
+<div class="bg-outline-variant h-full rounded-full" style="width: 70%"></div>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2.5 overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-300" id="q3Bar" style="width: 75%"></div>
+</div>
+</div>
+<div class="col-span-2 text-right text-on-surface">
+<span id="q3Text">51.12 ลบ.</span>
+</div>
+</div>
+<!-- Q4 -->
+<div class="grid grid-cols-12 items-center gap-space-xs font-label-sm text-label-sm">
+<span class="col-span-2 text-on-surface font-medium">ไตรมาส 4</span>
+<div class="col-span-8 flex flex-col gap-1">
+<div class="w-full bg-surface-container rounded-full h-2.5 overflow-hidden">
+<div class="bg-outline-variant h-full rounded-full" style="width: 70%"></div>
+</div>
+<div class="w-full bg-surface-container rounded-full h-2.5 overflow-hidden">
+<div class="bg-primary h-full rounded-full transition-all duration-300" id="q4Bar" style="width: 75%"></div>
+</div>
+</div>
+<div class="col-span-2 text-right text-on-surface">
+<span id="q4Text">51.12 ลบ.</span>
+</div>
+</div>
+</div>
+<!-- School Size Coverage Gauge Pills -->
+<div class="pt-space-xs flex flex-wrap items-center justify-between gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant">ความครอบคลุมจำแนกขนาดโรงเรียน:</span>
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-space-2xs bg-surface-container-lowest rounded font-label-sm text-label-sm text-on-surface shadow-sm">
+                โรงเรียนขนาดเล็ก (&lt; 120 คน): <strong id="smallCov">94.8%</strong>
+</span>
+<span class="px-space-xs py-space-2xs bg-surface-container-lowest rounded font-label-sm text-label-sm text-on-surface shadow-sm">
+                ขนาดกลาง: <strong id="medCov">98.2%</strong>
+</span>
+<span class="px-space-xs py-space-2xs bg-surface-container-lowest rounded font-label-sm text-label-sm text-on-surface shadow-sm">
+                ขนาดใหญ่/พิเศษ: <strong id="largeCov">100%</strong>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Regional Allocation Breakdown Table & Visual Distribution -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg mb-space-xl">
+<!-- Regional Data Dense Table (8 Cols) -->
+<div class="lg:col-span-8 bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col justify-between">
+<div>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs mb-space-md">
+<div>
+<h3 class="font-title-lg text-title-lg text-on-surface">สรุปการจัดสรรโควตารายภูมิภาค (4 ภาคทั่วประเทศ)</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">อัปเดตสถานะคำขออนุมัติและงบประมาณคงเหลือรายกลุ่มเขตพื้นที่การศึกษา</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-space-xs rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container transition-colors font-label-md text-label-md flex items-center gap-space-2xs">
+<span class="material-symbols-outlined text-title-md">filter_alt</span>
+              กรองสถานะ
+            </button>
+<button class="px-space-sm py-space-xs rounded-lg bg-primary-container text-on-primary hover:bg-tertiary-container transition-colors font-label-md text-label-md flex items-center gap-space-2xs shadow-sm">
+<span class="material-symbols-outlined text-title-md">manage_search</span>
+              ตรวจสอบโควตารายจังหวัด
+            </button>
+</div>
+</div>
+<!-- Dense Tabular Data Representation (Without Borders) -->
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase">
+<th class="py-space-xs px-space-sm rounded-l">ภูมิภาค / เขตการศึกษา</th>
+<th class="py-space-xs px-space-sm text-right">เป้าหมาย (อัตรา)</th>
+<th class="py-space-xs px-space-sm text-right">ยื่นขอรับจัดสรร</th>
+<th class="py-space-xs px-space-sm text-right">อนุมัติสมบูรณ์</th>
+<th class="py-space-xs px-space-sm text-right">งบประมาณที่ใช้ (ลบ.)</th>
+<th class="py-space-xs px-space-sm text-center">สถานะความพร้อม</th>
+<th class="py-space-xs px-space-sm rounded-r text-center">การจัดการ</th>
+</tr>
+</thead>
+<tbody class="divide-transparent">
+<!-- Region North -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container-low transition-colors">
+<td class="py-space-sm px-space-sm font-title-md text-on-surface">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span>ภาคเหนือ (17 จังหวัด)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-sm text-right font-metric-num text-label-lg text-on-surface">4,200</td>
+<td class="py-space-sm px-space-sm text-right text-on-surface-variant font-body-md">4,450</td>
+<td class="py-space-sm px-space-sm text-right font-medium text-primary">4,150</td>
+<td class="py-space-sm px-space-sm text-right font-metric-num text-label-lg text-on-surface">41.50</td>
+<td class="py-space-sm px-space-sm text-center">
+<span class="bg-surface-container-high text-on-primary-fixed-variant px-space-xs py-space-2xs rounded-full font-label-sm text-label-sm">
+                    จัดสรร 98.8%
+                  </span>
+</td>
+<td class="py-space-sm px-space-sm text-center">
+<button class="text-primary hover:text-secondary font-label-md text-label-md">ดูข้อมูลเขต</button>
+</td>
+</tr>
+<!-- Region Northeast -->
+<tr class="bg-surface-container-low hover:bg-surface-container transition-colors">
+<td class="py-space-sm px-space-sm font-title-md text-on-surface">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>ภาคตะวันออกเฉียงเหนือ (20 จังหวัด)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-sm text-right font-metric-num text-label-lg text-on-surface">7,800</td>
+<td class="py-space-sm px-space-sm text-right text-on-surface-variant font-body-md">8,200</td>
+<td class="py-space-sm px-space-sm text-right font-medium text-secondary">7,540</td>
+<td class="py-space-sm px-space-sm text-right font-metric-num text-label-lg text-on-surface">75.40</td>
+<td class="py-space-sm px-space-sm text-center">
+<span class="bg-surface-container-high text-on-primary-fixed-variant px-space-xs py-space-2xs rounded-full font-label-sm text-label-sm">
+                    จัดสรร 96.6%
+                  </span>
+</td>
+<td class="py-space-sm px-space-sm text-center">
+<button class="text-primary hover:text-secondary font-label-md text-label-md">ดูข้อมูลเขต</button>
+</td>
+</tr>
+<!-- Region Central -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container-low transition-colors">
+<td class="py-space-sm px-space-sm font-title-md text-on-surface">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+<span>ภาคกลางและตะวันออก (26 จังหวัด)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-sm text-right font-metric-num text-label-lg text-on-surface">5,100</td>
+<td class="py-space-sm px-space-sm text-right text-on-surface-variant font-body-md">5,310</td>
+<td class="py-space-sm px-space-sm text-right font-medium text-primary">4,910</td>
+<td class="py-space-sm px-space-sm text-right font-metric-num text-label-lg text-on-surface">49.10</td>
+<td class="py-space-sm px-space-sm text-center">
+<span class="bg-surface-container-high text-on-primary-fixed-variant px-space-xs py-space-2xs rounded-full font-label-sm text-label-sm">
+                    จัดสรร 96.2%
+                  </span>
+</td>
+<td class="py-space-sm px-space-sm text-center">
+<button class="text-primary hover:text-secondary font-label-md text-label-md">ดูข้อมูลเขต</button>
+</td>
+</tr>
+<!-- Region South -->
+<tr class="bg-surface-container-low hover:bg-surface-container transition-colors">
+<td class="py-space-sm px-space-sm font-title-md text-on-surface">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+<span>ภาคใต้และชายแดนใต้ (14 จังหวัด)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-sm text-right font-metric-num text-label-lg text-on-surface">2,900</td>
+<td class="py-space-sm px-space-sm text-right text-on-surface-variant font-body-md">3,080</td>
+<td class="py-space-sm px-space-sm text-right font-medium text-primary">2,500</td>
+<td class="py-space-sm px-space-sm text-right font-metric-num text-label-lg text-on-surface">25.00</td>
+<td class="py-space-sm px-space-sm text-center">
+<span class="bg-error-container text-on-error-container px-space-xs py-space-2xs rounded-full font-label-sm text-label-sm font-medium">
+                    ว่าง 400 อัตรา
+                  </span>
+</td>
+<td class="py-space-sm px-space-sm text-center">
+<button class="text-secondary hover:text-on-secondary-container font-label-md text-label-md font-medium">เร่งรัดจัดสรร</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>หมายเหตุ: การคำนวณเงินนิตยภัตอ้างอิงฐานอัตราปัจจุบัน 10,000 บาท/รูป/เดือน</span>
+<span class="text-primary font-medium">ข้อมูลปรับปรุงล่าสุด: วันนี้ เวลา 08:30 น.</span>
+</div>
+</div>
+<!-- Geographic & Field Inspection Visual Card (4 Cols) -->
+<div class="lg:col-span-4 bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<h3 class="font-title-lg text-title-lg text-on-surface">การลงพื้นที่ประเมินผลจริง</h3>
+<span class="px-space-xs py-space-2xs bg-surface-container rounded font-label-sm text-label-sm text-on-surface-variant">Q1/2568</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+          ภาพรวมการตรวจติดตามชั่วโมงสอนศีลธรรมและกิจกรรมพัฒนาคุณธรรมในโรงเรียนขยายโอกาส
+        </p>
+<!-- Rich Visual Image Component 1 -->
+<div class="relative w-full h-44 rounded-xl overflow-hidden mb-space-md shadow-sm">
+<img class="w-full h-full object-cover" data-alt="A serene classroom in a rural Thai Buddhist school with morning sunlight streaming through open wooden windows. A Thai Buddhist monk in saffron robes sits with poise on a slightly raised platform, gently teaching Dhamma to uniformed primary students seated on clean wooden floors. Atmosphere is solemn, scholarly, and filled with golden warm light, composed in an authoritative architectural style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5qP117vFIzVXBht20j_JQ4sTyhcOhyXzHSBCpkcyBH0k4m96VamurFo17XD1f92rXAu4f3TQ7LaE_caMtFrMLwPfLcYm3ghX71Yb2znKFhF7dNNoxXYkO39CwRP3dw8h2WrmDxM-zkmWDtfs1JLCrD4UzWA1K5f_LsAvECnZbuTM14Xq08MiEEb4W-RzQ0z-QbnSfxaWdou4crcL3iW19e0tXE4Ipk5oBm1fH24BgQ4AlMK1ZzGEx"/>
+<div class="absolute bottom-0 inset-x-0 p-space-sm bg-gradient-to-t from-primary/90 to-transparent text-on-primary">
+<span class="font-label-sm text-label-sm font-light">รร.บ้านห้วยต้ม จ.ลำพูน (พื้นที่ชนกลุ่มน้อย)</span>
+<span class="font-body-sm text-body-sm block font-medium">ชั่วโมงสอนครบถ้วน 100% (2 รูปดูแล 220 นักเรียน)</span>
+</div>
+</div>
+<!-- Visual Distribution Donut Representation -->
+<div class="p-space-sm bg-surface-container-low rounded-xl flex items-center gap-space-md">
+<div class="w-20 h-20 shrink-0">
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-container-highest" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="5"></path>
+<path class="text-primary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="72, 100" stroke-linecap="round" stroke-width="5"></path>
+<path class="text-secondary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="24, 100" stroke-dashoffset="-72" stroke-linecap="round" stroke-width="5"></path>
+</svg>
+</div>
+<div class="flex flex-col gap-1 text-on-surface">
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span>ประเมินผ่านเกณฑ์ดีเลิศ (72%)</span>
+</div>
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span>ผ่านเกณฑ์มาตรฐาน (24%)</span>
+</div>
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-surface-container-highest"></span>
+<span>รอตรวจรอบซ่อม (4%)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Action Anchor -->
+<div class="pt-space-md">
+<a class="w-full py-space-xs rounded-lg bg-surface-container text-on-surface hover:bg-surface-variant transition-colors font-label-md text-label-md flex items-center justify-center gap-space-2xs" data-path="monk-roster-workload" href="#">
+<span>เปิดระบบทะเบียนและภาระงานพระสอน</span>
+<span class="material-symbols-outlined text-body-lg">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Dual Institutional Verification & Audit Footprint -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg mb-space-md">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm pb-space-sm mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-headline-md">verified</span>
+<span class="font-title-lg text-title-lg text-on-surface">สถานะการรับรองผลแบบจำลองงบประมาณร่วม 2 สถาบัน (Dual-Signoff Verification)</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">ตามระเบียบกระทรวงศึกษาธิการและมหาเถรสมาคม</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Monastic Supervisory Signoff -->
+<div class="p-space-md bg-surface-container-low rounded-xl flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-primary-container text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-display-lg">temple_buddhist</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary font-medium">ฝ่ายศาสนศึกษา มหาเถรสมาคม</span>
+<span class="font-title-md text-title-md text-on-surface">พระธรรมกิตติเมธี (ประธานกำกับดูแลโครงการฯ)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">ลงนามรับรองกรอบอัตราและหลักสูตรพระปริยัตินิเทศก์แล้ว (14 ม.ค. 2568)</span>
+</div>
+</div>
+<!-- Secular / MOE District Signoff -->
+<div class="p-space-md bg-surface-container-low rounded-xl flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container-high text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-display-lg">account_balance</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary font-medium">สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน (สพฐ.)</span>
+<span class="font-title-md text-title-md text-on-surface">เลขาธิการคณะกรรมการการศึกษาขั้นพื้นฐาน</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">รอประมวลผลสรุปจากการจำลอง What-If เพื่อส่งสำนักงบประมาณ</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Client-side Interactive Calculation Logic -->
+<script>
+    (() => {
+      const ratioSlider = document.getElementById('ratioSlider');
+      const weightSlider = document.getElementById('weightSlider');
+      const allowanceSlider = document.getElementById('allowanceSlider');
+
+      const ratioDisplay = document.getElementById('ratioDisplay');
+      const weightDisplay = document.getElementById('weightDisplay');
+      const allowanceDisplay = document.getElementById('allowanceDisplay');
+
+      const simulatedQuotaVal = document.getElementById('simulatedQuotaVal');
+      const simulatedBudgetVal = document.getElementById('simulatedBudgetVal');
+      const quotaDeltaBadge = document.getElementById('quotaDeltaBadge');
+      const budgetDeltaBadge = document.getElementById('budgetDeltaBadge');
+
+      const q1Bar = document.getElementById('q1Bar');
+      const q2Bar = document.getElementById('q2Bar');
+      const q3Bar = document.getElementById('q3Bar');
+      const q4Bar = document.getElementById('q4Bar');
+
+      const q1Text = document.getElementById('q1Text');
+      const q2Text = document.getElementById('q2Text');
+      const q3Text = document.getElementById('q3Text');
+      const q4Text = document.getElementById('q4Text');
+
+      const baseMonks = 19100;
+      const baseBudget = 191.0;
+
+      function updateSimulation() {
+        const ratio = parseFloat(ratioSlider.value);
+        const weight = parseFloat(weightSlider.value);
+        const allowance = parseFloat(allowanceSlider.value);
+
+        // Update display text
+        ratioDisplay.textContent = ratio + ' คน';
+        weightDisplay.textContent = weight.toFixed(2);
+        allowanceDisplay.textContent = allowance.toLocaleString('th-TH') + ' บาท';
+
+        // Calculation: Total Monk Quota needed = Base * (Weight / 1.20) * (100 / Ratio)
+        const computedQuota = Math.round(baseMonks * (weight / 1.20) * (100 / ratio));
+        const quotaDiff = computedQuota - baseMonks;
+        const quotaDiffPercent = ((quotaDiff / baseMonks) * 100).toFixed(2);
+
+        // Calculation: Total Budget needed (12 months) in Millions of THB
+        // computedQuota * (allowance * 12) / 1,000,000
+        const computedBudget = (computedQuota * allowance * 12) / 1000000;
+        const budgetDiff = computedBudget - baseBudget;
+        const budgetDiffPercent = ((budgetDiff / baseBudget) * 100).toFixed(2);
+
+        // Update DOM
+        simulatedQuotaVal.textContent = computedQuota.toLocaleString('th-TH');
+        simulatedBudgetVal.textContent = computedBudget.toFixed(2);
+
+        // Delta Badges
+        const qSign = quotaDiff >= 0 ? '+' : '';
+        quotaDeltaBadge.textContent = `${qSign}${quotaDiff.toLocaleString('th-TH')} อัตรา (${qSign}${quotaDiffPercent}%)`;
+
+        const bSign = budgetDiff >= 0 ? '+' : '';
+        budgetDeltaBadge.textContent = `${bSign}${budgetDiff.toFixed(2)} ลบ. (${bSign}${budgetDiffPercent}%)`;
+
+        // Quarterly breakdown
+        const quarterVal = (computedBudget / 4).toFixed(2);
+        q1Text.textContent = quarterVal + ' ลบ.';
+        q2Text.textContent = quarterVal + ' ลบ.';
+        q3Text.textContent = quarterVal + ' ลบ.';
+        q4Text.textContent = quarterVal + ' ลบ.';
+
+        // Adjust bar widths dynamically (max ~280M => 100%)
+        const barPercentage = Math.min(100, Math.max(20, (computedBudget / 250) * 100));
+        q1Bar.style.width = barPercentage + '%';
+        q2Bar.style.width = barPercentage + '%';
+        q3Bar.style.width = barPercentage + '%';
+        q4Bar.style.width = barPercentage + '%';
+      }
+
+      // Event listeners for inputs
+      ratioSlider.addEventListener('input', updateSimulation);
+      weightSlider.addEventListener('input', updateSimulation);
+      allowanceSlider.addEventListener('input', updateSimulation);
+
+      // Presets
+      document.getElementById('presetStandard').addEventListener('click', () => {
+        ratioSlider.value = 100;
+        weightSlider.value = 1.20;
+        allowanceSlider.value = 10000;
+        updateSimulation();
+      });
+
+      document.getElementById('presetIntensive').addEventListener('click', () => {
+        ratioSlider.value = 80;
+        weightSlider.value = 1.20;
+        allowanceSlider.value = 10000;
+        updateSimulation();
+      });
+
+      document.getElementById('presetRemote').addEventListener('click', () => {
+        ratioSlider.value = 100;
+        weightSlider.value = 1.40;
+        allowanceSlider.value = 11000;
+        updateSimulation();
+      });
+
+      document.getElementById('resetSimBtn').addEventListener('click', () => {
+        ratioSlider.value = 100;
+        weightSlider.value = 1.20;
+        allowanceSlider.value = 10000;
+        updateSimulation();
+      });
+
+      // Export / Save interaction triggers
+      document.getElementById('saveScenarioBtn').addEventListener('click', () => {
+        alert('บันทึกโมเดลสถานการณ์จำลองสำหรับการจัดทำคำของบประมาณปี 2568 สำเร็จ');
+      });
+
+      document.getElementById('exportReportBtn').addEventListener('click', () => {
+        alert('ระบบกำลังเตรียมไฟล์สรุปวิเคราะห์เปรียบเทียบภาระงบประมาณ (PDF & Excel Data Sheet)...');
+      });
+
+      // Initial run
+      updateSimulation();
+    })();
+  </script>
+</div></main></div></body></html>

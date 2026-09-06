@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+
+<html lang="th"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-error":"#ffffff","on-surface":"#0d1c2f","surface-variant":"#d5e3fd","primary":"#002046","tertiary":"#06223a","inverse-on-surface":"#ebf1ff","on-primary-container":"#87a0cd","on-secondary":"#ffffff","surface-dim":"#ccdbf4","on-tertiary-container":"#89a0bf","on-tertiary":"#ffffff","error-container":"#ffdad6","tertiary-container":"#1f3751","surface":"#f8f9ff","on-primary-fixed-variant":"#2e476f","primary-container":"#1b365d","on-error-container":"#93000a","on-tertiary-fixed-variant":"#314863","secondary":"#9b4500","primary-fixed":"#d6e3ff","secondary-fixed":"#ffdbca","background":"#f8f9ff","surface-container-lowest":"#ffffff","primary-fixed-dim":"#aec7f7","secondary-container":"#fd8a42","secondary-fixed-dim":"#ffb68e","inverse-primary":"#aec7f7","surface-container-highest":"#d5e3fd","on-primary":"#ffffff","error":"#ba1a1a","surface-bright":"#f8f9ff","tertiary-fixed-dim":"#b0c9e8","on-background":"#0d1c2f","outline":"#74777f","on-primary-fixed":"#001b3d","surface-container-high":"#dde9ff","on-secondary-fixed":"#331200","tertiary-fixed":"#d1e4ff","surface-tint":"#465f88","on-surface-variant":"#44474e","surface-container-low":"#eff4ff","on-secondary-fixed-variant":"#763300","on-secondary-container":"#682c00","inverse-surface":"#233144","surface-container":"#e6eeff","outline-variant":"#c4c6cf","on-tertiary-fixed":"#011d35"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"1rem","gutter-desktop":"1.5rem","space-xl":"2rem","space-2xl":"3rem","space-lg":"1.5rem","space-md":"1rem","space-sm":"0.75rem","space-xs":"0.5rem","container-max":"1440px","space-2xs":"0.25rem"},"fontFamily":{"body-sm":["Inter"],"body-lg":["Inter"],"title-md":["Inter"],"label-sm":["Inter"],"label-lg":["Inter"],"title-lg":["Inter"],"headline-lg":["Inter"],"headline-lg-mobile":["Inter"],"metric-num":["Inter"],"body-md":["Inter"],"headline-md":["Inter"],"display-lg":["Inter"],"label-md":["Inter"]},"fontSize":{"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"title-md":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.03em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.005em","fontWeight":"500"}],"title-lg":["18px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"600"}],"headline-lg":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-lg-mobile":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"metric-num":["28px",{"lineHeight":"32px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"display-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased min-h-screen"><header class="fixed top-0 w-full z-50 bg-primary text-on-primary shadow-[0_1px_8px_rgba(0,0,0,0.08)]"><div class="h-20 w-full px-gutter-desktop flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1W7e0NFUgoXWJJJrRhUhCvFsSobRnStp6e9Uvl3tNWBe8EI6aD2OzJoiAxkiG3AparGRpD_Qzzbs-bFvlDIGzoHwLgeFH1IXOfdZZdJLIqrY2S_60_bVEtOU6Vi5niXmzhBLf9dsqAGnRR_VhJuSYc006MYAGxuEiY6LBD8WH27hB_CZt7YAO8r-OfV1Gbv8c-5A6J_EvpVz3yMOntW1EtamUhBH-_5DaxBV9F6trRxBGp0_3Eh6Ol0Zbs"/><div class="flex flex-col"><span class="font-title-lg text-title-lg text-on-primary tracking-tight">ระบบประเมินและจัดสรรจำนวนพระสอนศีลธรรม</span><span class="font-body-sm text-body-sm text-on-primary-container font-light">โครงการพระสอนศีลธรรมในโรงเรียน • แพลตฟอร์มกลางบริหารจัดการและจัดสรรโควตาระดับชาติ</span></div></div><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-xs bg-primary-container px-space-md py-space-xs rounded-lg"><div class="flex flex-col text-right"><span class="font-label-sm text-label-sm text-on-primary-container">บทบาทผู้ใช้งาน</span><span class="font-label-lg text-label-lg text-on-primary font-medium">ส่วนกลาง (Central Admin / Executive)</span></div><span class="bg-secondary text-on-secondary px-space-xs py-space-2xs rounded font-label-sm text-label-sm ml-space-xs">ปีงบประมาณ 2568</span></div><div class="relative flex items-center justify-center"><button class="w-10 h-10 rounded-full flex items-center justify-center bg-primary-container text-on-primary hover:bg-tertiary-container transition-colors" title="การแจ้งเตือน"><span class="material-symbols-outlined">notifications</span></button><span class="absolute top-1 right-1 w-2.5 h-2.5 bg-secondary-container rounded-full ring-2 ring-primary"></span></div><div class="flex items-center gap-space-sm pl-space-sm border-l border-primary-container"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1W7e0NFUgoXWJJJrRhUhCvFsSobRnStp6e9Uvl3tNWBe8EI6aD2OzJoiAxkiG3AparGRpD_Qzzbs-bFvlDIGzoHwLgeFH1IXOfdZZdJLIqrY2S_60_bVEtOU6Vi5niXmzhBLf9dsqAGnRR_VhJuSYc006MYAGxuEiY6LBD8WH27hB_CZt7YAO8r-OfV1Gbv8c-5A6J_EvpVz3yMOntW1EtamUhBH-_5DaxBV9F6trRxBGp0_3Eh6Ol0Zbs"/><div class="flex flex-col text-left"><span class="font-label-lg text-label-lg text-on-primary font-medium leading-none">พระมหาประเสริฐ / นายนริศ สุวรรณสิทธิ์</span><span class="font-label-sm text-label-sm text-on-primary-container mt-space-2xs">ผู้ดูแลระบบส่วนกลาง (Super Admin)</span></div></div></div></div><div class="w-full bg-surface-container-lowest px-gutter-desktop shadow-[0_1px_4px_rgba(0,0,0,0.03)]"><nav class="flex items-center gap-space-xl overflow-x-auto" data-active-classes="border-b-2 border-secondary text-secondary font-title-md"><a class="py-space-md font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-path="executive-dashboard" href="#">แดชบอร์ดภาพรวมและจำลองงบประมาณ</a><a class="py-space-md font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-path="school-quota-calculation" href="#">บันทึกคำขอและคำนวณโควตาโรงเรียน</a><a aria-current="page" class="py-space-md transition-colors whitespace-nowrap border-b-2 border-secondary text-secondary font-title-md" data-path="monk-roster-workload" href="#">ทะเบียนและตรวจสอบภาระงานพระสอน</a><a class="py-space-md font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-path="approval-audit-trail" href="#">ขั้นตอนการอนุมัติและประวัติการตรวจสอบ</a></nav></div></header><aside class="fixed left-0 top-36 h-[calc(100vh-9rem)] w-64 bg-surface-container-lowest z-40 flex flex-col p-space-md overflow-y-auto shadow-[1px_0_4px_rgba(0,0,0,0.02)]"><div class="mb-space-md px-space-xs"><span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">การแบ่งเขตปกครอง / ภูมิภาค</span></div><nav class="flex-1 flex flex-col gap-space-2xs" data-active-classes="bg-primary-container text-on-primary font-title-md"><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="executive-dashboard" href="#"><span class="material-symbols-outlined text-outline">public</span>ภาพรวมทั้งประเทศ</a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="school-quota-calculation" href="#"><span class="material-symbols-outlined text-outline">account_balance</span>สำนักงานเขตพื้นที่การศึกษา</a><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg transition-colors bg-primary-container text-on-primary font-title-md" data-path="monk-roster-workload" href="#"><span class="material-symbols-outlined text-outline">temple_buddhist</span>สำนักงานเจ้าคณะจังหวัด / อำเภอ</a><a class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors font-body-md text-body-md" data-path="approval-audit-trail" href="#"><span class="material-symbols-outlined text-outline">verified_user</span>ทะเบียนพิจารณาคำขอระดับเขต</a></nav><div class="mt-auto pt-space-md border-t border-surface-container"><div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col gap-space-2xs"><span class="font-label-sm text-label-sm text-on-surface-variant">สถานะเชื่อมโยงข้อมูล</span><div class="flex items-center gap-space-2xs"><span class="w-2 h-2 rounded-full bg-emerald-500"></span><span class="font-body-sm text-body-sm text-on-surface">ระบบสารสนเทศ สพฐ. เชื่อมต่อแล้ว</span></div></div></div></aside><div class="pl-64"><main class="w-full pt-36 px-gutter-desktop pb-space-2xl bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Command & Synchronisation Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-md mb-space-lg">
+<div class="flex items-center gap-space-sm">
+<span class="p-space-xs bg-primary-container text-on-primary rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-title-lg">temple_buddhist</span>
+</span>
+<div>
+<div class="flex items-center gap-space-xs">
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">ทะเบียนประวัติและตรวจสอบภาระงานพระสอนศีลธรรม</h1>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-semibold">MOD-02 • ภาคเรียนที่ 1/2568</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">ระบบกำกับดูแลเกณฑ์ภาระงานตามมติมหาเถรสมาคมร่วมกับ สพฐ. (Rule 1 &amp; Rule 2 Enforcement Engine)</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container-lowest text-on-surface hover:bg-surface-container transition-all flex items-center gap-space-xs shadow-sm font-label-lg text-label-lg" id="syncButton" onclick="triggerSync()">
+<span class="material-symbols-outlined text-title-md text-primary" id="syncIcon">sync</span>
+<span>ซิงค์ข้อมูลมหาเถรสมาคม</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm font-mono">(10:42)</span>
+</button>
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container-lowest text-on-surface hover:bg-surface-container transition-all flex items-center gap-space-xs shadow-sm font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-title-md text-secondary">file_download</span>
+<span>ส่งออกรายงาน (Excel/PDF)</span>
+</button>
+<button class="px-space-md py-space-xs rounded-lg bg-primary text-on-primary hover:bg-tertiary-container transition-all flex items-center gap-space-xs shadow-sm font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-title-md">person_add</span>
+<span>ขึ้นทะเบียนพระสอนใหม่</span>
+</button>
+</div>
+</div>
+<!-- Realtime Rule 1 & Rule 2 Integrity Warning Box -->
+<div class="w-full bg-secondary-fixed text-on-secondary-fixed rounded-xl p-space-md mb-space-lg shadow-sm">
+<div class="flex items-start gap-space-md">
+<div class="p-space-xs bg-secondary rounded-lg text-on-secondary flex-shrink-0 mt-0.5">
+<span class="material-symbols-outlined">warning</span>
+</div>
+<div class="flex-1">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-secondary-fixed font-bold tracking-tight">
+            การตรวจสอบความถูกต้องอัตโนมัติ: ตรวจพบ 3 กรณีที่ต้องพิจารณาแก้ไขทันที
+          </span>
+<span class="px-space-xs py-0.5 rounded bg-secondary text-on-secondary font-label-sm text-label-sm font-bold uppercase tracking-wider">
+            Critical Alerts
+          </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-secondary-fixed-variant mt-space-2xs mb-space-xs">
+          ระบบตรวจพบความผิดปกติของตารางสอนและสถานะสมณเพศที่ขัดต่อเกณฑ์การเบิกจ่ายงบประมาณอุดหนุนนิตยภัต
+        </p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-sm mt-space-sm">
+<div class="bg-surface-container-lowest/80 backdrop-blur-sm p-space-sm rounded-lg shadow-xs flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-2xs mb-space-2xs">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+<span class="font-label-sm text-label-sm font-bold text-error">Rule 1: คาบสอนซ้อนทับข้ามโรงเรียน</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">
+<strong>พระมหาไพโรจน์ ฐิตธมฺโม</strong> ตารางสอนซ้อนทับกันในวันอังคาร คาบ 3-4 ระหว่าง รร.วัดเบญจมบพิตร และ รร.มัธยมวัดมกุฏกษัตริย์
+              </p>
+</div>
+<button class="mt-space-xs text-left font-label-sm text-label-sm font-semibold text-secondary hover:underline flex items-center gap-space-2xs" onclick="openScheduleModal('พระมหาไพโรจน์ ฐิตธมฺโม')">
+              ตรวจสอบตารางชน <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<div class="bg-surface-container-lowest/80 backdrop-blur-sm p-space-sm rounded-lg shadow-xs flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-2xs mb-space-2xs">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm font-bold text-secondary">Rule 2: ภาระงานเกินเกณฑ์สูงสุด</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">
+<strong>พระครูสังฆรักษ์ สุรเดช</strong> มีภาระงานสอนรวม 22 คาบ/สัปดาห์ (เกินเพดาน 20 คาบ) อาจส่งผลต่อประสิทธิภาพการจัดการเรียนรู้
+              </p>
+</div>
+<button class="mt-space-xs text-left font-label-sm text-label-sm font-semibold text-secondary hover:underline flex items-center gap-space-2xs" onclick="openScheduleModal('พระครูสังฆรักษ์ สุรเดช')">
+              ปรับลดตารางสอน <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<div class="bg-surface-container-lowest/80 backdrop-blur-sm p-space-sm rounded-lg shadow-xs flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-2xs mb-space-2xs">
+<span class="w-2 h-2 rounded-full bg-on-surface-variant"></span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">แจ้งระงับสิทธิ์: ลาสิกขาแล้ว</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">
+<strong>พระสมุห์วิชาญ</strong> ลาสิกขาเมื่อ 15 พ.ค. ระบบปรับเป็น <span class="font-mono text-label-sm bg-surface-container px-1 rounded">SLOT_VACANT</span> และระงับการเบิกจ่ายอัตโนมัติ
+              </p>
+</div>
+<button class="mt-space-xs text-left font-label-sm text-label-sm font-semibold text-primary hover:underline flex items-center gap-space-2xs" onclick="openDrawer('พระสมุห์วิชาญ นรินฺโท', '10-092-4819-2', 'วัดระฆังโฆสิตาราม', 'disrobed')">
+              ตรวจบันทึกประวัติ <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- KPI Overview Metrics -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-space-md mb-space-lg">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="font-label-md text-label-md font-medium">พระสอนที่ปฏิบัติหน้าที่จริง (Active)</span>
+<span class="material-symbols-outlined text-primary">person_check</span>
+</div>
+<div class="mt-space-xs">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-metric-num text-metric-num text-on-surface font-bold">4,812</span>
+<span class="font-label-sm text-label-sm text-primary font-medium">รูป</span>
+</div>
+<div class="flex items-center gap-space-2xs mt-space-2xs">
+<span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">96.8% ของโควตาทั่วประเทศ</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="font-label-md text-label-md font-medium">สอนควบ 2 โรงเรียน (เกณฑ์จำกัด)</span>
+<span class="material-symbols-outlined text-secondary">domain_add</span>
+</div>
+<div class="mt-space-xs">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-metric-num text-metric-num text-secondary font-bold">1,240</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">รูป</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-space-2xs block">ไม่เกินขีดจำกัดสูงสุด (Rule 1 ผ่าน)</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="font-label-md text-label-md font-medium">ภาระงานเฉลี่ยทั้งประเทศ</span>
+<span class="material-symbols-outlined text-primary-container">speed</span>
+</div>
+<div class="mt-space-xs">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-metric-num text-metric-num text-on-surface font-bold">15.4</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">คาบ/สัปดาห์</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full mt-space-xs overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 77%;"></div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="font-label-md text-label-md font-medium">โควตาว่างรอจัดสรร (Slot Vacant)</span>
+<span class="material-symbols-outlined text-error">assignment_late</span>
+</div>
+<div class="mt-space-xs">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-metric-num text-metric-num text-error font-bold">158</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">ตำแหน่ง</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-space-2xs block">จากการลาสิกขา / ย้ายสังกัด</span>
+</div>
+</div>
+</div>
+<!-- Filter & Search Controls Matrix -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md mb-space-lg shadow-sm">
+<div class="flex flex-col gap-space-md">
+<!-- Top Filters -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md items-center">
+<!-- Search bar -->
+<div class="md:col-span-5 relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline">search</span>
+<input class="w-full pl-10 pr-space-md py-2 text-body-md rounded-lg bg-surface-container-low focus:bg-surface-container-lowest text-on-surface placeholder:text-outline focus:outline-none transition-all" id="searchInput" placeholder="ค้นหา: ชื่อพระ / ฉายา / เลขประจำตัว 13 หลัก / เลขใบสุทธิ / วัดสังกัด..." type="text"/>
+</div>
+<!-- Ecclesiastical & Monk Status Filter -->
+<div class="md:col-span-3">
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1">สถานะสมณเพศ &amp; การปฏิบัติหน้าที่</label>
+<select class="w-full px-space-sm py-2 text-body-md rounded-lg bg-surface-container-low text-on-surface focus:outline-none" id="statusFilter">
+<option value="all">ทุกสถานะสมณเพศ (ทั้งหมด)</option>
+<option selected="" value="active">ปฏิบัติหน้าที่ปกติ (Active)</option>
+<option value="transferred">ย้ายวัด / โอนย้ายเขต (Transferred)</option>
+<option value="disrobed">ลาสิกขา (Disrobed)</option>
+<option value="deceased">มรณภาพ (Deceased)</option>
+</select>
+</div>
+<!-- Workload Risk Category -->
+<div class="md:col-span-4">
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1">ตัวกรองความเสี่ยงภาระงาน (Workload Audit)</label>
+<select class="w-full px-space-sm py-2 text-body-md rounded-lg bg-surface-container-low text-on-surface focus:outline-none" id="riskFilter">
+<option value="all">ระดับความเสี่ยงทั้งหมด</option>
+<option value="normal">ภาระงานปกติ (8 - 20 คาบ/สัปดาห์)</option>
+<option value="over-school">เสี่ยง Rule 1: สอนเกิน 2 โรงเรียน / ตารางชน</option>
+<option value="over-period">เสี่ยง Rule 2: ภาระสอนเกิน 20 คาบ/สัปดาห์</option>
+<option value="underload">ภาระสอนต่ำกว่าเกณฑ์ (&lt; 8 คาบ/สัปดาห์)</option>
+</select>
+</div>
+</div>
+<!-- Pill Filter Badges for Rapid Triage -->
+<div class="flex flex-wrap items-center gap-space-xs pt-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">ตัวกรองด่วน:</span>
+<button class="px-space-sm py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm">เขต กทม. (ทั้งหมด 128 รูป)</button>
+<button class="px-space-sm py-1 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-sm text-label-sm">สพม. กรุงเทพมหานคร เขต 1</button>
+<button class="px-space-sm py-1 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-sm text-label-sm">สพป. กทม.</button>
+<button class="px-space-sm py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-sm">priority_high</span> ภาระงานเกินเกณฑ์ (2)
+        </button>
+<button class="px-space-sm py-1 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-sm">cancel</span> ระงับเบิกจ่าย (1)
+        </button>
+<button class="ml-auto text-primary font-label-sm text-label-sm hover:underline">ล้างตัวกรองทั้งหมด</button>
+</div>
+</div>
+</div>
+<!-- Monk Roster Data Table Card -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden mb-space-2xl">
+<div class="px-space-md py-space-sm bg-surface-container-low flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="font-title-md text-title-md text-on-surface font-semibold">บัญชีรายชื่อพระสอนศีลธรรมและภาระงาน</span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">แสดง 6 จาก 4,812 รายการ</span>
+</div>
+<div class="flex items-center gap-space-sm text-body-sm text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span> ปกติ</span>
+<span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-secondary"></span> เฝ้าระวัง</span>
+<span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-error"></span> ระงับสิทธิ์</span>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
+<tr>
+<th class="py-space-sm px-space-md">พระสอนศีลธรรม / วุฒิการศึกษา</th>
+<th class="py-space-sm px-space-md">สังกัดวัด &amp; เลขสุทธิ / บัตร ปชช.</th>
+<th class="py-space-sm px-space-md">โรงเรียนที่ได้รับมอบหมาย</th>
+<th class="py-space-sm px-space-md">ภาระงานสอนรวม (Workload)</th>
+<th class="py-space-sm px-space-md text-center">สถานะสมณเพศ</th>
+<th class="py-space-sm px-space-md text-center">สิทธิ์เบิกจ่าย</th>
+<th class="py-space-sm px-space-md text-right">การจัดการ</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container" id="monkTableBody">
+<!-- Row 1: Active - Normal -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover ring-2 ring-surface-variant" data-alt="Official monk credential photo of a Thai Buddhist senior monk smiling serenely wearing dark saffron orange robes, natural temple backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANsP8C9oZvpJxPqBLV_LIYWvj34PQI9kPYoQwfiyB06vxzs1RwCfjYz0o28mGAgo5PXirOpOBR4LabvkwqxV-UUs0Kg-nbOKD5Zdw-KY4UMFW_fXxs-N_RSK3N_FMiaYG1GdJzZWFv8KMAs6a1pCHHkJtwAoIsFXgJZ4wBF94PYMSNT-K2ZQjq_auvY48lhMIiOvjYeZ1rovm1PUufZKCh6Tr1ZBScJ7bH93yGgNsg4vuSTQ4M0fIE"/>
+<div>
+<div class="font-title-md text-title-md text-on-surface font-semibold">พระมหาสมปอง สมาหิโต</div>
+<div class="flex items-center gap-space-2xs mt-0.5">
+<span class="px-space-2xs py-0.5 rounded bg-surface-container-high text-primary font-label-sm text-label-sm font-medium">เปรียญธรรม 7 ประโยค</span>
+<span class="text-on-surface-variant text-label-sm font-mono">พธ.บ. (พุทธศาสตร์)</span>
+</div>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="font-medium text-on-surface">วัดบวรนิเวศวิหาร ราชวรวิหาร</div>
+<div class="text-on-surface-variant text-body-sm">เขตพระนคร กรุงเทพฯ</div>
+<div class="font-mono text-label-sm text-outline mt-0.5">สุทธิ: 10-004-9124 • ID: 1-1004-XXXXX-92-1</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col gap-1">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface text-label-sm">
+<span class="material-symbols-outlined text-xs text-primary">school</span> โรงเรียนวัดบวรนิเวศ (ม.1 - ม.3)
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface text-label-sm">
+<span class="material-symbols-outlined text-xs text-primary">school</span> โรงเรียนโยธินบูรณะ (ม.4)
+                </span>
+<span class="text-label-sm text-on-surface-variant font-medium">รวม 2 โรงเรียน (สพม. กทม. 1)</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="w-48">
+<div class="flex justify-between items-center mb-1">
+<span class="font-title-md text-title-md font-bold text-on-surface">16 <span class="text-label-sm font-normal text-on-surface-variant">/ 20 คาบ/สัปดาห์</span></span>
+<span class="text-label-sm font-semibold text-emerald-600">80%</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-emerald-600 h-full rounded-full" style="width: 80%;"></div>
+</div>
+<span class="text-label-sm text-on-surface-variant mt-1 block">ภาระงานเหมาะสม (เกณฑ์ 8-20 คาบ)</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-emerald-50 text-emerald-700 font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                ปฏิบัติหน้าที่ (Active)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-md bg-emerald-100 text-emerald-800 font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-sm">verified</span> ผ่านการรับรอง
+              </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="p-1.5 rounded-lg text-primary hover:bg-surface-container transition-colors" onclick="openScheduleModal('พระมหาสมปอง สมาหิโต')" title="ดูตารางสอนละเอียด">
+<span class="material-symbols-outlined text-title-md">calendar_month</span>
+</button>
+<button class="px-space-xs py-1 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-sm text-label-sm font-medium" onclick="openDrawer('พระมหาสมปอง สมาหิโต', '10-004-9124', 'วัดบวรนิเวศวิหาร', 'active')">
+                  ปรับปรุงสถานะ
+                </button>
+</div>
+</td>
+</tr>
+<!-- Row 2: Conflict - Rule 1 Violation (Schedule Overlap) -->
+<tr class="hover:bg-surface-container-low/50 transition-colors bg-secondary-fixed/20">
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover ring-2 ring-secondary" data-alt="Monastic identification portrait of a middle aged Thai monk wearing saffron robes in front of golden temple pagodas" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCATVyz8jWGVaNE_JHEYCFWGXScyuzTOZE9p8d9gKdAa1QpHWZoCheJ_RTsGTo7qlpEzXFz8Eu9anLcUfbRhoteXkmTHFw-RhKEQmTaqdEX47iqOTrFfd9KaslOdbwxZ2mDHlgPsQnWSAB4QhSLmzp_Aj-x3i0RfoS3y-om6DnduhJ4XF21ZixL8zp-WUMjLiJD2LzoEX7McFXBhJ5l-D9AyVqtwLhFq82vX8SA8ZvP8AVVNH1f4uzZ"/>
+<div>
+<div class="font-title-md text-title-md text-on-surface font-semibold flex items-center gap-1">
+                    พระมหาไพโรจน์ ฐิตธมฺโม
+                    <span class="material-symbols-outlined text-secondary text-sm" title="พบปัญหาข้อขัดแย้งตารางสอน">error</span>
+</div>
+<div class="flex items-center gap-space-2xs mt-0.5">
+<span class="px-space-2xs py-0.5 rounded bg-surface-container-high text-primary font-label-sm text-label-sm font-medium">เปรียญธรรม 6 ประโยค</span>
+<span class="text-on-surface-variant text-label-sm font-mono">กศ.ม. (การศึกษา)</span>
+</div>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="font-medium text-on-surface">วัดมกุฏกษัตริยารามราชวรวิหาร</div>
+<div class="text-on-surface-variant text-body-sm">เขตพระนคร กรุงเทพฯ</div>
+<div class="font-mono text-label-sm text-outline mt-0.5">สุทธิ: 10-011-8231 • ID: 3-1002-XXXXX-11-4</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col gap-1">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-secondary-container/30 text-on-secondary-container text-label-sm font-medium">
+<span class="material-symbols-outlined text-xs text-secondary">warning</span> รร.วัดเบญจมบพิตร (อ. คาบ 3-4)
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-secondary-container/30 text-on-secondary-container text-label-sm font-medium">
+<span class="material-symbols-outlined text-xs text-secondary">warning</span> รร.มัธยมวัดมกุฏกษัตริย์ (อ. คาบ 3-4)
+                </span>
+<span class="text-label-sm text-error font-semibold">ขัดแย้ง: คาบสอนซ้อนทับข้ามโรงเรียน</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="w-48">
+<div class="flex justify-between items-center mb-1">
+<span class="font-title-md text-title-md font-bold text-secondary">18 <span class="text-label-sm font-normal text-on-surface-variant">/ 20 คาบ/สัปดาห์</span></span>
+<span class="text-label-sm font-semibold text-secondary">90%</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 90%;"></div>
+</div>
+<span class="text-label-sm text-error mt-1 block font-medium">พบตารางสอนชนกัน 2 คาบ</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-emerald-50 text-emerald-700 font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                ปฏิบัติหน้าที่ (Active)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-md bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-sm">schedule</span> รอการแก้ไขตาราง
+              </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="p-1.5 rounded-lg bg-secondary text-on-secondary hover:bg-secondary/90 transition-colors" onclick="openScheduleModal('พระมหาไพโรจน์ ฐิตธมฺโม')" title="แก้ไขคาบสอนที่ซ้อนทับ">
+<span class="material-symbols-outlined text-title-md">build</span>
+</button>
+<button class="px-space-xs py-1 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-sm text-label-sm font-medium" onclick="openDrawer('พระมหาไพโรจน์ ฐิตธมฺโม', '10-011-8231', 'วัดมกุฏกษัตริยาราม', 'active')">
+                  ปรับปรุงสถานะ
+                </button>
+</div>
+</td>
+</tr>
+<!-- Row 3: Overload - Rule 2 Violation (> 20 periods) -->
+<tr class="hover:bg-surface-container-low/50 transition-colors bg-secondary-fixed/20">
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover ring-2 ring-secondary" data-alt="Formal identification photo of an elder Thai Buddhist monk with spectacles wearing brown-orange robes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAkhfuDKdgo-3d4ZjfwHSnYtHyM7S7Mx9mYNqLBabZ0mFOvw2dTY5-ssXUSQ65PwDcXIxXpQZzwL57Q69Vcq9MCps3b9iEWWfP9u803LDW_DSnE5kzZY55aGzKKuDvv_1MlnvOhF2WkQ4cuonn88ekxtiw7EuA7qwddKR09AuN0laqXccVfKqkXF2VOWJXhfY8yWqNNsI3K17Ky-6PHiEunbwyQ74Ukw9c0FHj-zn9vRf673OPjHKU"/>
+<div>
+<div class="font-title-md text-title-md text-on-surface font-semibold">พระครูสังฆรักษ์ สุรเดช อภิปุญฺโญ</div>
+<div class="flex items-center gap-space-2xs mt-0.5">
+<span class="px-space-2xs py-0.5 rounded bg-surface-container-high text-primary font-label-sm text-label-sm font-medium">นักธรรมเอก</span>
+<span class="text-on-surface-variant text-label-sm font-mono">ศษ.บ.</span>
+</div>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="font-medium text-on-surface">วัดไตรมิตรวิทยาราม วรวิหาร</div>
+<div class="text-on-surface-variant text-body-sm">เขตสัมพันธวงศ์ กรุงเทพฯ</div>
+<div class="font-mono text-label-sm text-outline mt-0.5">สุทธิ: 10-023-7741 • ID: 1-1033-XXXXX-45-7</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col gap-1">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface text-label-sm">
+<span class="material-symbols-outlined text-xs text-primary">school</span> รร.ไตรมิตรวิทยาลัย (12 คาบ)
+                </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface text-label-sm">
+<span class="material-symbols-outlined text-xs text-primary">school</span> รร.มหาวีรานุวัตร (10 คาบ)
+                </span>
+<span class="text-label-sm text-on-surface-variant">2 โรงเรียน (สพฐ.)</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="w-48">
+<div class="flex justify-between items-center mb-1">
+<span class="font-title-md text-title-md font-bold text-secondary">22 <span class="text-label-sm font-normal text-on-surface-variant">/ 20 คาบ/สัปดาห์</span></span>
+<span class="text-label-sm font-semibold text-secondary">110%</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 100%;"></div>
+</div>
+<span class="text-label-sm text-secondary font-semibold mt-1 block">Rule 2: เกินเกณฑ์สูงสุด 2 คาบ</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-emerald-50 text-emerald-700 font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                ปฏิบัติหน้าที่ (Active)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-md bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-sm">warning</span> ต้องปรับลดภาระงาน
+              </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="p-1.5 rounded-lg text-primary hover:bg-surface-container transition-colors" onclick="openScheduleModal('พระครูสังฆรักษ์ สุรเดช อภิปุญฺโญ')" title="ดูตารางสอนละเอียด">
+<span class="material-symbols-outlined text-title-md">calendar_month</span>
+</button>
+<button class="px-space-xs py-1 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-sm text-label-sm font-medium" onclick="openDrawer('พระครูสังฆรักษ์ สุรเดช อภิปุญฺโญ', '10-023-7741', 'วัดไตรมิตรวิทยาราม', 'active')">
+                  ปรับปรุงสถานะ
+                </button>
+</div>
+</td>
+</tr>
+<!-- Row 4: Disrobed - Slot Vacant / Pay Blocked -->
+<tr class="hover:bg-surface-container-low/50 transition-colors bg-error-container/20">
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-sm opacity-70">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant font-bold text-title-md">
+                  วน
+                </div>
+<div>
+<div class="font-title-md text-title-md text-on-surface font-semibold line-through">พระสมุห์วิชาญ นรินฺโท</div>
+<div class="flex items-center gap-space-2xs mt-0.5">
+<span class="px-space-2xs py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">ลาสิกขาแล้ว (15 พ.ค. 68)</span>
+</div>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md opacity-70">
+<div class="font-medium text-on-surface">วัดระฆังโฆสิตาราม วรมหาวิหาร</div>
+<div class="text-on-surface-variant text-body-sm">เขตบางกอกน้อย กรุงเทพฯ</div>
+<div class="font-mono text-label-sm text-outline mt-0.5">สุทธิ: 10-092-4819 • ID: 1-1014-XXXXX-88-2</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col gap-1">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-error-container text-on-error-container text-label-sm font-bold">
+<span class="material-symbols-outlined text-xs">block</span> รร.สตรีวัดระฆัง (SLOT_VACANT)
+                </span>
+<span class="text-label-sm text-error font-medium">ตำแหน่งว่างรอการจัดสรรทดแทน</span>
+</div>
+</td>
+<td class="py-space-md px-space-md opacity-70">
+<div class="w-48">
+<div class="flex justify-between items-center mb-1">
+<span class="font-title-md text-title-md font-bold text-on-surface-variant">0 <span class="text-label-sm font-normal text-outline">/ 20 คาบ/สัปดาห์</span></span>
+<span class="text-label-sm font-semibold text-outline">0%</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-outline h-full rounded-full" style="width: 0%;"></div>
+</div>
+<span class="text-label-sm text-error mt-1 block font-medium">ยกเลิกคาบสอนทั้งหมดแล้ว</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-error"></span>
+                ลาสิกขา (Disrobed)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-md bg-error text-on-error font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-sm">cancel</span> ระงับเบิกจ่ายถาวร
+              </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="px-space-xs py-1 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-sm text-label-sm font-medium" onclick="openDrawer('นายวิชาญ (อดีต พระสมุห์วิชาญ)', '10-092-4819', 'วัดระฆังโฆสิตาราม', 'disrobed')">
+                  ดูบันทึกคำสั่ง
+                </button>
+</div>
+</td>
+</tr>
+<!-- Row 5: Transferred (Under review) -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover ring-2 ring-surface-variant" data-alt="Monk ID photo of young Thai novice or scholar monk in yellow ochre robes against a light neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7zw4IEzmoEd4BdbIKd-InSdvYVsQ88ZvfpEe9h0WsUAnsNvyI0TR6HUgqWV_WzToTvZjRkKrTyGIpO3oVtAHtGReBNXXk6EwWdrBRAIyH3LnIxJvljJpoWvW9jI8NtT_1Tzi5EjbFe999DMJoqAJAhnJjGV4XoryTy3N-jjfIqfe_J82O-aFCrfPRAEZN5Vcp9Xj8ufqK-oJSUkBMdUPVsT_eBuRZSkuNEZFA82y5pzkZFjTyJs3T"/>
+<div>
+<div class="font-title-md text-title-md text-on-surface font-semibold">พระครูปลัดธีรพงษ์ ญาณวโร</div>
+<div class="flex items-center gap-space-2xs mt-0.5">
+<span class="px-space-2xs py-0.5 rounded bg-surface-container-high text-primary font-label-sm text-label-sm font-medium">เปรียญธรรม 4 ประโยค</span>
+<span class="text-on-surface-variant text-label-sm font-mono">ศศ.บ.</span>
+</div>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="font-medium text-on-surface">วัดสุทัศนเทพวราราม ราชวรมหาวิหาร</div>
+<div class="text-on-surface-variant text-body-sm">เขตพระนคร กรุงเทพฯ</div>
+<div class="font-mono text-label-sm text-outline mt-0.5">สุทธิ: 10-008-6542 • ID: 1-1008-XXXXX-32-9</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col gap-1">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface text-label-sm">
+<span class="material-symbols-outlined text-xs text-primary">school</span> โรงเรียนภารตวิทยาลัย (14 คาบ)
+                </span>
+<span class="text-label-sm text-on-surface-variant">1 โรงเรียน</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="w-48">
+<div class="flex justify-between items-center mb-1">
+<span class="font-title-md text-title-md font-bold text-on-surface">14 <span class="text-label-sm font-normal text-on-surface-variant">/ 20 คาบ/สัปดาห์</span></span>
+<span class="text-label-sm font-semibold text-primary">70%</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 70%;"></div>
+</div>
+<span class="text-label-sm text-on-surface-variant mt-1 block">ยื่นขอโอนย้ายไปยัง สพป. เชียงใหม่</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                โอนย้ายวัด (Transferred)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-md bg-surface-container-high text-primary font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-sm">pending</span> รอปลายทางรับมอบ
+              </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="p-1.5 rounded-lg text-primary hover:bg-surface-container transition-colors" onclick="openScheduleModal('พระครูปลัดธีรพงษ์ ญาณวโร')" title="ดูตารางสอน">
+<span class="material-symbols-outlined text-title-md">calendar_month</span>
+</button>
+<button class="px-space-xs py-1 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-sm text-label-sm font-medium" onclick="openDrawer('พระครูปลัดธีรพงษ์ ญาณวโร', '10-008-6542', 'วัดสุทัศนเทพวราราม', 'transferred')">
+                  ปรับปรุงสถานะ
+                </button>
+</div>
+</td>
+</tr>
+<!-- Row 6: Active - Single School Optimal -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-sm">
+<img class="w-10 h-10 rounded-full object-cover ring-2 ring-surface-variant" data-alt="Official monk registration headshot of an earnest Buddhist teaching monk in Thailand dressed in clean saffron robes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBD7jBFSamG_jH8L5NLyz6GTskdN5xJyKp2TL_HUMjzZc0lDb88sNTL-LIohARfN0M8hT6u7BERgyC4sdUDqRiffHEzFpFTKwzBzf08na2-tUh1DwFPu4FrNR93B8rfildXGZjvIxCq7m_00PCwrXF7MOfjZhnr4EQxMtmlIlK_F-QajVO5GK-yqAfmfJmd8_gKOgeHjQrEYZZkbf6TPIvKW-gbDU_Oj0v5U-eLrkmDlRnVhd_zh4Sx"/>
+<div>
+<div class="font-title-md text-title-md text-on-surface font-semibold">พระปลัดวีรวัฒน์ ปภสฺสโร</div>
+<div class="flex items-center gap-space-2xs mt-0.5">
+<span class="px-space-2xs py-0.5 rounded bg-surface-container-high text-primary font-label-sm text-label-sm font-medium">นักธรรมเอก</span>
+<span class="text-on-surface-variant text-label-sm font-mono">บธ.บ.</span>
+</div>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="font-medium text-on-surface">วัดชนะสงคราม ราชวรมหาวิหาร</div>
+<div class="text-on-surface-variant text-body-sm">เขตพระนคร กรุงเทพฯ</div>
+<div class="font-mono text-label-sm text-outline mt-0.5">สุทธิ: 10-032-1109 • ID: 1-1002-XXXXX-90-5</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="flex flex-col gap-1">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface text-label-sm">
+<span class="material-symbols-outlined text-xs text-primary">school</span> โรงเรียนวัดชนะสงคราม (16 คาบ)
+                </span>
+<span class="text-label-sm text-on-surface-variant">1 โรงเรียน (เต็มโควตาปกติ)</span>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<div class="w-48">
+<div class="flex justify-between items-center mb-1">
+<span class="font-title-md text-title-md font-bold text-on-surface">16 <span class="text-label-sm font-normal text-on-surface-variant">/ 20 คาบ/สัปดาห์</span></span>
+<span class="text-label-sm font-semibold text-emerald-600">80%</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-emerald-600 h-full rounded-full" style="width: 80%;"></div>
+</div>
+<span class="text-label-sm text-on-surface-variant mt-1 block">ภาระงานเหมาะสมและสม่ำเสมอ</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-emerald-50 text-emerald-700 font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                ปฏิบัติหน้าที่ (Active)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-md bg-emerald-100 text-emerald-800 font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-sm">verified</span> ผ่านการรับรอง
+              </span>
+</td>
+<td class="py-space-md px-space-md text-right">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="p-1.5 rounded-lg text-primary hover:bg-surface-container transition-colors" onclick="openScheduleModal('พระปลัดวีรวัฒน์ ปภสฺสโร')" title="ดูตารางสอนละเอียด">
+<span class="material-symbols-outlined text-title-md">calendar_month</span>
+</button>
+<button class="px-space-xs py-1 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-sm text-label-sm font-medium" onclick="openDrawer('พระปลัดวีรวัฒน์ ปภสฺสโร', '10-032-1109', 'วัดชนะสงคราม', 'active')">
+                  ปรับปรุงสถานะ
+                </button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Table Pagination & PDPA Disclaimer -->
+<div class="p-space-md bg-surface-container-low flex flex-wrap items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-xs text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-outline text-sm">lock</span>
+<span>ระบบปฏิบัติตาม พ.ร.บ. คุ้มครองข้อมูลส่วนบุคคล (PDPA): แสดงหมายเลขบัตร ปชช. แบบ Masking และจำกัดสิทธิ์การเข้าถึงประวัติลึกเฉพาะเจ้าหน้าที่นายทะเบียน</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest text-on-surface flex items-center justify-center shadow-xs hover:bg-surface-container disabled:opacity-50" disabled="">
+<span class="material-symbols-outlined text-sm">chevron_left</span>
+</button>
+<span class="px-space-sm font-label-sm text-label-sm font-bold text-on-surface">หน้า 1 จาก 802</span>
+<button class="w-8 h-8 rounded-lg bg-surface-container-lowest text-on-surface flex items-center justify-center shadow-xs hover:bg-surface-container">
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Slide-out Drawer Panel: Status Update & Quota Impact Preview (PRD Acceptance Criteria) -->
+<div class="fixed inset-0 bg-on-surface/40 backdrop-blur-xs z-50 transition-opacity hidden" id="statusDrawerBackdrop">
+<div class="absolute inset-0" onclick="closeDrawer()"></div>
+<div class="absolute right-0 top-0 h-full w-full max-w-lg bg-surface-container-lowest shadow-2xl p-space-lg flex flex-col justify-between overflow-y-auto transform translate-x-full transition-transform duration-300" id="statusDrawerContent">
+<div>
+<!-- Drawer Header -->
+<div class="flex items-start justify-between pb-space-md border-b border-surface-container">
+<div class="flex items-center gap-space-sm">
+<span class="p-space-xs rounded-lg bg-primary text-on-primary">
+<span class="material-symbols-outlined">edit_calendar</span>
+</span>
+<div>
+<h3 class="font-title-lg text-title-lg text-on-surface font-bold">บันทึกปรับปรุงสถานะสมณเพศ</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">และคำนวณผลกระทบโควตาอัตโนมัติ (Quota Impact Engine)</p>
+</div>
+</div>
+<button class="p-space-xs rounded-full hover:bg-surface-container text-on-surface-variant" onclick="closeDrawer()">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<!-- Target Monk Summary Profile Card -->
+<div class="my-space-md p-space-sm bg-surface-container rounded-xl flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-bold font-title-lg">
+            สม
+          </div>
+<div>
+<div class="font-title-md text-title-md text-on-surface font-semibold" id="drawerMonkName">พระมหาสมปอง สมาหิโต</div>
+<div class="text-body-sm text-on-surface-variant" id="drawerMonkMeta">สุทธิ: 10-004-9124 • วัดบวรนิเวศวิหาร</div>
+</div>
+</div>
+<!-- Form: Status Selection with Interactive Quota Preview -->
+<form class="space-y-space-md" id="statusUpdateForm" onsubmit="handleFormSubmit(event)">
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-space-xs">
+              เปลี่ยนสถานะการดำรงสมณเพศ <span class="text-error">*</span>
+</label>
+<div class="grid grid-cols-2 gap-space-xs">
+<label class="flex items-center gap-space-xs p-space-sm rounded-lg border border-transparent bg-surface-container-low has-[:checked]:bg-primary-container has-[:checked]:text-on-primary cursor-pointer transition-all">
+<input checked="" class="accent-primary" name="monkStatus" onchange="previewQuotaChange('active')" type="radio" value="active"/>
+<span class="font-label-md text-label-md">ปฏิบัติหน้าที่ (Active)</span>
+</label>
+<label class="flex items-center gap-space-xs p-space-sm rounded-lg border border-transparent bg-surface-container-low has-[:checked]:bg-error-container has-[:checked]:text-on-error-container cursor-pointer transition-all">
+<input class="accent-error" name="monkStatus" onchange="previewQuotaChange('disrobed')" type="radio" value="disrobed"/>
+<span class="font-label-md text-label-md font-bold">ลาสิกขา (Disrobed)</span>
+</label>
+<label class="flex items-center gap-space-xs p-space-sm rounded-lg border border-transparent bg-surface-container-low has-[:checked]:bg-surface-container-high has-[:checked]:text-primary cursor-pointer transition-all">
+<input class="accent-primary" name="monkStatus" onchange="previewQuotaChange('transferred')" type="radio" value="transferred"/>
+<span class="font-label-md text-label-md">ย้ายวัด / โอนเขต</span>
+</label>
+<label class="flex items-center gap-space-xs p-space-sm rounded-lg border border-transparent bg-surface-container-low has-[:checked]:bg-surface-variant cursor-pointer transition-all">
+<input class="accent-on-surface" name="monkStatus" onchange="previewQuotaChange('deceased')" type="radio" value="deceased"/>
+<span class="font-label-md text-label-md">มรณภาพ</span>
+</label>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">
+              วันที่มีผลบังคับใช้ตามหลักฐานทางการ <span class="text-error">*</span>
+</label>
+<input class="w-full px-space-sm py-2 rounded-lg bg-surface-container-low text-on-surface focus:outline-none font-body-md text-body-md" type="date" value="2025-05-20"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">
+              หมายเลขอ้างอิงมติเจ้าคณะ / หนังสือสุทธิ / ใบมรณบัตร
+            </label>
+<input class="w-full px-space-sm py-2 rounded-lg bg-surface-container-low text-on-surface focus:outline-none font-body-md text-body-md" placeholder="ระบุเลขที่หนังสือสั่งการ หรือมติเจ้าคณะปกครอง..." type="text"/>
+</div>
+<!-- Dynamic Acceptance Criteria Box: Quota Impact Simulation -->
+<div class="p-space-md rounded-xl bg-surface-container-low transition-all" id="quotaImpactBox">
+<div class="flex items-center gap-space-2xs text-primary font-bold font-title-md mb-space-2xs">
+<span class="material-symbols-outlined">analytics</span>
+<span>การจำลองผลกระทบโควตาโรงเรียนทันที (Live Impact)</span>
+</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant" id="quotaImpactText">
+              สถานะปัจจุบันคงที่: ไม่มีผลกระทบต่อตำแหน่งโควตาของโรงเรียนสังกัดเดิม
+            </div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">
+              แนบเอกสารรับรองคำร้อง (PDF/JPG)
+            </label>
+<div class="p-space-md rounded-lg border-2 border-dashed border-outline-variant bg-surface-container-low/50 text-center cursor-pointer hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-outline text-2xl mb-1">upload_file</span>
+<p class="font-label-md text-label-md text-on-surface-variant">ลากไฟล์มาวางที่นี่ หรือ <span class="text-primary font-bold">เลือกไฟล์</span></p>
+<span class="text-label-sm text-outline">รองรับไฟล์สแกนใบสุทธิ มรณบัตร หรือหนังสือรับรอง ขนาดไม่เกิน 10MB</span>
+</div>
+</div>
+</form>
+</div>
+<!-- Drawer Footer Actions -->
+<div class="pt-space-md border-t border-surface-container flex items-center justify-end gap-space-sm mt-space-lg">
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-lg text-label-lg font-medium" onclick="closeDrawer()" type="button">
+          ยกเลิก
+        </button>
+<button class="px-space-lg py-space-xs rounded-lg bg-secondary text-on-secondary hover:bg-secondary/90 shadow-sm transition-all font-label-lg text-label-lg font-bold flex items-center gap-space-2xs" onclick="confirmStatusUpdate()" type="button">
+<span class="material-symbols-outlined text-title-md">check_circle</span>
+<span>ยืนยันการบันทึกสถานะ</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Modal: Workload & Schedule Inspector (Rule 1 Conflict View) -->
+<div class="fixed inset-0 bg-on-surface/40 backdrop-blur-xs z-50 flex items-center justify-center hidden p-space-md" id="scheduleModal">
+<div class="bg-surface-container-lowest rounded-2xl shadow-2xl max-w-3xl w-full p-space-lg max-h-[90vh] overflow-y-auto">
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-container mb-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="p-space-xs rounded-lg bg-secondary text-on-secondary">
+<span class="material-symbols-outlined">table_view</span>
+</span>
+<div>
+<h3 class="font-title-lg text-title-lg text-on-surface font-bold">ตารางการสอนรายสัปดาห์ (Weekly Roster Matrix)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant" id="scheduleMonkName">ตรวจสอบความขัดแย้ง: พระมหาไพโรจน์ ฐิตธมฺโม</p>
+</div>
+</div>
+<button class="p-space-xs rounded-full hover:bg-surface-container text-on-surface-variant" onclick="closeScheduleModal()">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<!-- Weekly Schedule Grid Visualization -->
+<div class="mb-space-md">
+<div class="text-body-sm text-on-surface-variant mb-space-xs flex items-center justify-between">
+<span>ตารางสอน 5 วันทำการ (จันทร์ - ศุกร์)</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">แถบสีแดงคือช่วงเวลาที่ซ้อนทับ (Conflict Zone)</span>
+</div>
+<div class="grid grid-cols-6 gap-1 bg-surface-container p-2 rounded-xl text-center font-label-sm text-label-sm">
+<div class="bg-surface-container-low p-2 rounded font-bold">เวลา / วัน</div>
+<div class="bg-surface-container-low p-2 rounded font-semibold">จันทร์</div>
+<div class="bg-surface-container-low p-2 rounded font-semibold text-secondary font-bold">อังคาร (Conflict)</div>
+<div class="bg-surface-container-low p-2 rounded font-semibold">พุธ</div>
+<div class="bg-surface-container-low p-2 rounded font-semibold">พฤหัสบดี</div>
+<div class="bg-surface-container-low p-2 rounded font-semibold">ศุกร์</div>
+<!-- Morning Row 1 -->
+<div class="bg-surface-container-lowest p-2 rounded text-on-surface-variant font-mono">08:30 - 10:20 (คาบ 1-2)</div>
+<div class="bg-primary-container text-on-primary p-2 rounded flex flex-col justify-center">
+<span class="font-bold text-xs">รร.วัดเบญจมบพิตร</span>
+<span class="text-[10px] opacity-80">ม.1/1 ศีลธรรม 1</span>
+</div>
+<div class="bg-surface-container-lowest p-2 rounded text-outline">-</div>
+<div class="bg-primary-container text-on-primary p-2 rounded flex flex-col justify-center">
+<span class="font-bold text-xs">รร.มัธยมวัดมกุฏฯ</span>
+<span class="text-[10px] opacity-80">ม.2/2 ธรรมศึกษา</span>
+</div>
+<div class="bg-surface-container-lowest p-2 rounded text-outline">-</div>
+<div class="bg-primary-container text-on-primary p-2 rounded flex flex-col justify-center">
+<span class="font-bold text-xs">รร.วัดเบญจมบพิตร</span>
+<span class="text-[10px] opacity-80">ม.3/1 จริยธรรม</span>
+</div>
+<!-- Morning Row 2 (CONFLICT ZONE) -->
+<div class="bg-surface-container-lowest p-2 rounded text-on-surface-variant font-mono">10:30 - 12:00 (คาบ 3-4)</div>
+<div class="bg-surface-container-lowest p-2 rounded text-outline">-</div>
+<!-- OVERLAP ALERT BOX -->
+<div class="bg-error text-on-error p-2 rounded shadow-md flex flex-col justify-center ring-2 ring-error animate-pulse">
+<span class="font-bold text-xs">⚠️ ตารางซ้อนทับ 2 โรงเรียน!</span>
+<span class="text-[10px] mt-0.5">รร.วัดเบญฯ vs รร.วัดมกุฏฯ</span>
+</div>
+<div class="bg-surface-container-lowest p-2 rounded text-outline">-</div>
+<div class="bg-primary-container text-on-primary p-2 rounded flex flex-col justify-center">
+<span class="font-bold text-xs">รร.วัดเบญจมบพิตร</span>
+<span class="text-[10px] opacity-80">ม.2/1 พุทธประวัติ</span>
+</div>
+<div class="bg-surface-container-lowest p-2 rounded text-outline">-</div>
+<!-- Afternoon Row 3 -->
+<div class="bg-surface-container-lowest p-2 rounded text-on-surface-variant font-mono">13:00 - 15:00 (คาบ 5-6)</div>
+<div class="bg-primary-container text-on-primary p-2 rounded flex flex-col justify-center">
+<span class="font-bold text-xs">รร.มัธยมวัดมกุฏฯ</span>
+<span class="text-[10px] opacity-80">ม.4/1 ศาสนพิธี</span>
+</div>
+<div class="bg-primary-container text-on-primary p-2 rounded flex flex-col justify-center">
+<span class="font-bold text-xs">รร.มัธยมวัดมกุฏฯ</span>
+<span class="text-[10px] opacity-80">ม.5/2 ธรรมะกับการดำเนินชีวิต</span>
+</div>
+<div class="bg-surface-container-lowest p-2 rounded text-outline">-</div>
+<div class="bg-surface-container-lowest p-2 rounded text-outline">-</div>
+<div class="bg-surface-container-lowest p-2 rounded text-outline">-</div>
+</div>
+</div>
+<div class="p-space-sm bg-secondary-fixed text-on-secondary-fixed rounded-xl flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary">info</span>
+<span class="font-body-sm text-body-sm font-medium">เจ้าหน้าที่สามารถสลับคาบสอนวันอังคาร คาบ 3-4 ไปยัง วันพุธ บ่าย เพื่อขจัดความขัดแย้ง</span>
+</div>
+<button class="px-space-md py-1 rounded bg-secondary text-on-secondary font-label-sm text-label-sm font-bold hover:bg-secondary/90" onclick="resolveConflict()">
+          ปรับแก้ไขอัตโนมัติ (Auto-Reschedule)
+        </button>
+</div>
+<div class="flex justify-end mt-space-md">
+<button class="px-space-md py-space-xs bg-surface-container text-on-surface font-label-md text-label-md rounded-lg hover:bg-surface-container-high" onclick="closeScheduleModal()">
+          ปิดหน้าต่าง
+        </button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // UI Interactions & Client Side Logic
+
+  function openDrawer(monkName, monkId, templeName, status) {
+    document.getElementById('drawerMonkName').innerText = monkName;
+    document.getElementById('drawerMonkMeta').innerText = 'สุทธิ: ' + monkId + ' • ' + templeName;
+    
+    // Select radio button matching status
+    const radios = document.getElementsByName('monkStatus');
+    for (let r of radios) {
+      if (r.value === status) {
+        r.checked = true;
+        previewQuotaChange(status);
+        break;
+      }
+    }
+
+    const backdrop = document.getElementById('statusDrawerBackdrop');
+    const content = document.getElementById('statusDrawerContent');
+    backdrop.classList.remove('hidden');
+    setTimeout(() => {
+      content.classList.remove('translate-x-full');
+    }, 10);
+  }
+
+  function closeDrawer() {
+    const backdrop = document.getElementById('statusDrawerBackdrop');
+    const content = document.getElementById('statusDrawerContent');
+    content.classList.add('translate-x-full');
+    setTimeout(() => {
+      backdrop.classList.add('hidden');
+    }, 300);
+  }
+
+  function previewQuotaChange(status) {
+    const box = document.getElementById('quotaImpactBox');
+    const txt = document.getElementById('quotaImpactText');
+
+    if (status === 'disrobed') {
+      box.className = 'p-space-md rounded-xl bg-error-container text-on-error-container transition-all';
+      txt.innerHTML = `
+        <div class="font-semibold text-error">⚠️ สรุปผลกระทบเมื่อปรับสถานะเป็น "ลาสิกขา":</div>
+        <ul class="list-disc list-inside mt-1 space-y-0.5 text-label-sm">
+          <li>โควตาโรงเรียนสังกัดเดิมจะถูกแปลงเป็น <strong>SLOT_VACANT ทันที</strong></li>
+          <li>ระบบจะ<strong>ระงับสิทธิ์การเบิกจ่ายนิตยภัต</strong>นับตั้งแต่วันที่มีผลบังคับใช้</li>
+          <li>แจ้งเตือนสำนักงานเขตพื้นที่การศึกษาเพื่อส่งพระสอนสำรองเข้าทดแทน</li>
+        </ul>
+      `;
+    } else if (status === 'transferred') {
+      box.className = 'p-space-md rounded-xl bg-surface-container-high text-primary transition-all';
+      txt.innerHTML = `
+        <div class="font-semibold text-primary">ℹ️ สรุปผลกระทบเมื่อปรับสถานะเป็น "ย้ายวัด/โอนเขต":</div>
+        <p class="text-label-sm mt-1">โควตาจะถูกพักไว้ชั่วคราว (Pending Transfer Clearance) จนกว่าเจ้าคณะปกครองและเขตพื้นที่ปลายทางจะลงนามรับมอบภาระงาน</p>
+      `;
+    } else if (status === 'deceased') {
+      box.className = 'p-space-md rounded-xl bg-surface-variant text-on-surface-variant transition-all';
+      txt.innerHTML = `
+        <div class="font-semibold text-on-surface">มรณภาพ: ปิดบัญชีทะเบียนพระสอนถาวรและเปิด SLOT_VACANT</div>
+      `;
+    } else {
+      box.className = 'p-space-md rounded-xl bg-surface-container-low transition-all';
+      txt.innerHTML = 'สถานะปกติคงที่: ไม่มีผลกระทบต่อตำแหน่งโควตาของโรงเรียนสังกัดเดิม';
+    }
+  }
+
+  function confirmStatusUpdate() {
+    alert('บันทึกการปรับสถานะสำเร็จ และปรับปรุงโควตาอัตโนมัติตาม Acceptance Criteria เรียบร้อยแล้ว');
+    closeDrawer();
+  }
+
+  function handleFormSubmit(e) {
+    e.preventDefault();
+    confirmStatusUpdate();
+  }
+
+  function openScheduleModal(monkName) {
+    document.getElementById('scheduleMonkName').innerText = 'ตรวจสอบความขัดแย้ง: ' + monkName;
+    document.getElementById('scheduleModal').classList.remove('hidden');
+  }
+
+  function closeScheduleModal() {
+    document.getElementById('scheduleModal').classList.add('hidden');
+  }
+
+  function resolveConflict() {
+    alert('ระบบทำการย้ายคาบสอนวันอังคารไปยัง วันพุธ คาบ 5-6 สำเร็จ! ไม่พบการชนกันของตารางสอนข้ามโรงเรียนแล้ว');
+    closeScheduleModal();
+  }
+
+  function triggerSync() {
+    const icon = document.getElementById('syncIcon');
+    const btn = document.getElementById('syncButton');
+    icon.classList.add('animate-spin');
+    btn.classList.add('opacity-75');
+
+    setTimeout(() => {
+      icon.classList.remove('animate-spin');
+      btn.classList.remove('opacity-75');
+      alert('เชื่อมต่อและดึงข้อมูลทะเบียนพระภิกษุสามเณรจากระบบมหาเถรสมาคม (พศ.) สำเร็จ ครบถ้วน 4,812 รูป');
+    }, 1200);
+  }
+
+  // Live filter simulation
+  const searchInput = document.getElementById('searchInput');
+  const statusFilter = document.getElementById('statusFilter');
+
+  function filterRows() {
+    const query = searchInput.value.toLowerCase();
+    const rows = document.querySelectorAll('#monkTableBody tr');
+    rows.forEach(row => {
+      const text = row.innerText.toLowerCase();
+      if (text.includes(query)) {
+        row.style.display = '';
+      } else {
+        row.style.display = 'none';
+      }
+    });
+  }
+
+  searchInput.addEventListener('input', filterRows);
+</script></main></div></body></html>
